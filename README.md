@@ -6,4 +6,4 @@ Enables destroyed soap to create slippery puddles and swaps the static soap mode
 
 ---
 
-`Cyb.Soapbox` v1.0.1, by Cyb. This README was automatically generated from the mod's manifest.
+`Cyb.Soapbox` v1.0.2, by Cyb. This README was automatically generated from the mod's manifest.
