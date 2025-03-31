@@ -3,10 +3,7 @@
 	"tbluHash": "001AB7C14C9DA3DD",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"43ef49553c1a4b71",
-				{ "SetName": "ItemSpawner First 1" }
-			]
+			"SubEntityOperation": ["43ef49553c1a4b71", { "SetName": "ItemSpawner First 1" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -25,10 +22,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"43ef49553c1a4b71",
-				{ "RemovePropertyByName": "m_mTransform" }
-			]
+			"SubEntityOperation": ["43ef49553c1a4b71", { "RemovePropertyByName": "m_mTransform" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -48,10 +42,7 @@
 			"SubEntityOperation": [
 				"43ef49553c1a4b71",
 				{
-					"AddProperty": [
-						"m_bUsePlacementAttach",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bUsePlacementAttach", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -88,10 +79,7 @@
 			"SubEntityOperation": [
 				"43ef49553c1a4b71",
 				{
-					"AddProperty": [
-						"m_bSpawnOnStart",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["m_bSpawnOnStart", { "type": "bool", "value": true }]
 				}
 			]
 		},
