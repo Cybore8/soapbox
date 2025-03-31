@@ -1,0 +1,25 @@
+{
+	"tempHash": "009B674456905C90",
+	"tbluHash": "008C87C4CCC172CF",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"500691476a7f0bd5",
+				{
+					"SetPropertyValue": {
+						"property_name": "PlacementVolumeTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -0.009999999776482582,
+								"y": -0.029999999329447746,
+								"z": 0.029999999329447746
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

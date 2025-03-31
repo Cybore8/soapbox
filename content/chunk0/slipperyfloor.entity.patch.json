@@ -1,0 +1,584 @@
+{
+	"tempHash": "00219925E85216F7",
+	"tbluHash": "00C265EF5440287A",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4b4862d04801ceef",
+				{
+					"AddEventConnection": [
+						"FadeInDone",
+						"Enable",
+						"cafe0a597e568b2c"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"900ef7a7617e153b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bValue",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c393071fe116025",
+				{
+					"SetPropertyValue": {
+						"property_name": "AllowSoap",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c393071fe116025",
+				{
+					"AddPropertyAliasConnection": [
+						"m_Boxes",
+						{
+							"originalProperty": "m_Boxes",
+							"originalEntity": "cafe0a597e568b2c"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c393071fe116025",
+				{
+					"AddPropertyAliasConnection": [
+						"m_Boxes",
+						{
+							"originalProperty": "m_Boxes",
+							"originalEntity": "cafe42eb34afd09f"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe44adaf18f622",
+				{
+					"parent": "1c393071fe116025",
+					"name": "47",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7469b2d7f30e",
+				{
+					"parent": "cafe47cf631b1a11",
+					"name": "Slip",
+					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+					"properties": {
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 1603908 }
+						},
+						"m_nLoopCount": { "type": "int32", "value": 1 },
+						"m_bPausedOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafea532b2900d29"],
+							"postInit": true
+						}
+					},
+					"events": {
+						"Stopped": { "Activate": ["cafe4caf7a9f7602"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea532b2900d29",
+				{
+					"parent": "cafe7469b2d7f30e",
+					"name": "EntityTrack",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe26fec185f850"
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe295d3096d391"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe295d3096d391",
+				{
+					"parent": "cafea532b2900d29",
+					"name": "MorphemeBoneTrack",
+					"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+					"properties": {
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea532b2900d29"
+						},
+						"m_sSlotName": {
+							"type": "ZString",
+							"value": "FullBody"
+						},
+						"m_bUpperBody": { "type": "bool", "value": false },
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafee3f97f9fc4fb"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee3f97f9fc4fb",
+				{
+					"parent": "cafe295d3096d391",
+					"name": "Anim",
+					"factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 1603908 }
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "004F079F4BBE9EA0",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe26fec185f850",
+				{
+					"parent": "cafea532b2900d29",
+					"name": "HeroStandIn",
+					"factory": "[modules:/zherostandin.class].pc_entitytype",
+					"blueprint": "[modules:/zherostandin.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe47cf631b1a11",
+				{
+					"parent": "cafe44adaf18f622",
+					"name": "Slip",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0a597e568b2c",
+				{
+					"parent": "cafe47cf631b1a11",
+					"name": "VolumeTriggerCharacter 47",
+					"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_TriggerOnHitman": {
+							"type": "bool",
+							"value": true
+						},
+						"m_TriggerOnActorAlive": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_TriggerOnOverlap": {
+							"type": "bool",
+							"value": false
+						},
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4caf7a9f7602",
+				{
+					"parent": "cafe47cf631b1a11",
+					"name": "HitmanDamageOverTime",
+					"factory": "[modules:/zhitmandamageovertime.class].pc_entitytype",
+					"blueprint": "[modules:/zhitmandamageovertime.class].pc_entityblueprint",
+					"properties": {
+						"m_fDamage": { "type": "float32", "value": 100.0 },
+						"m_fInterval": { "type": "float32", "value": 0.0 },
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe42eb34afd09f"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe42eb34afd09f",
+				{
+					"parent": "cafe4caf7a9f7602",
+					"name": "Damage VolumeBox",
+					"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": { "x": 5, "y": 5, "z": 5 }
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "1c393071fe116025",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef5535d65b9d4",
+				{
+					"parent": "cafe47cf631b1a11",
+					"name": "Timer Delay Slip",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Delay time (ms)": {
+							"type": "int32",
+							"value": 200
+						}
+					},
+					"events": { "Out": { "Start": ["cafe7469b2d7f30e"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1137fd0d3ca2",
+				{
+					"parent": "cafe44adaf18f622",
+					"name": "HeroSensorConditionEntity06",
+					"factory": "[modules:/zherosensorconditionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zherosensorconditionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eMonitoredEvent": {
+							"type": "EAISharedEventType",
+							"value": "AISET_Running"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeef5c838dbcba",
+				{
+					"parent": "cafe28cb92a5f55d",
+					"name": "Cyb_SlipBlackout",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "Cyb_SlipBlackout"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec2b60da672f7",
+				{
+					"parent": "cafe28cb92a5f55d",
+					"name": "Cyb_EventChannelReceiver_void_02 Destroyed",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafeef5c838dbcba"
+						}
+					},
+					"events": {
+						"EventReceived": {
+							"SetTrue": ["cafeba7c68c01dd6"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeba7c68c01dd6",
+				{
+					"parent": "cafec2b60da672f7",
+					"name": "Erased ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee1f26ab0210c",
+				{
+					"parent": "cafe28cb92a5f55d",
+					"name": "Cyb_EventChannelTransmitter_void_01",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafeef5c838dbcba",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe28cb92a5f55d",
+				{
+					"parent": "cafe44adaf18f622",
+					"name": "Void_Transmit",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed87aa46ab2e1",
+				{
+					"parent": "cafe47cf631b1a11",
+					"name": "Umbrella - RunSlip",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ALL"
+						},
+						"m_bFireOnLevelStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe0a597e568b2c",
+								"cafe1137fd0d3ca2",
+								"cafe2ee1d7f4d3cf",
+								"b6a13cd5f9a57fbe",
+								"cafe51b0c8762fb6"
+							],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": {
+							"SetFalse": [
+								"cafe2ee1d7f4d3cf",
+								"b6a13cd5f9a57fbe"
+							],
+							"In": ["cafef5535d65b9d4", "cafeec6ae4e5d9b6"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2ee1d7f4d3cf",
+				{
+					"parent": "cafed87aa46ab2e1",
+					"name": "Once ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeec6ae4e5d9b6",
+				{
+					"parent": "cafe47cf631b1a11",
+					"name": "Timer Delay Blackout",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Delay time (ms)": {
+							"type": "int32",
+							"value": 350
+						}
+					},
+					"events": {
+						"Out": { "TransmitEvent": ["cafee1f26ab0210c"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0ad1ec2114dd",
+				{
+					"parent": "cafe232142380c54",
+					"name": "DONT_USE_ON_LEVEL_ItemKey_SelfieStick",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "de11aac7-bece-4bc8-bfd4-858ee178b625"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe232142380c54",
+				{
+					"parent": "cafe3a510eedbb1b",
+					"name": "HeroItemCondition",
+					"factory": "[modules:/zheroitemcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zheroitemcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_ItemKeyToFind": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe0ad1ec2114dd"
+						},
+						"m_bCheckEquippedItem": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bCheckInventory": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3a510eedbb1b",
+				{
+					"parent": "cafe44adaf18f622",
+					"name": "Suspect Cam",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe232142380c54"],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "SetFalse": ["cafe3a510eedbb1b"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe51b0c8762fb6",
+				{
+					"parent": "cafe3a510eedbb1b",
+					"name": "Not Showdown ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddComment": {
+				"parent": "cafe7469b2d7f30e",
+				"name": "Notes",
+				"text": "\t\t\t\"value\": {\n\t\t\t\t\"m_nTicks\": 16693328\n\t\t\t}"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "cafe295d3096d391",
+				"name": "Notes",
+				"text": "\t\t\t\"value\": [\n\t\t\t\t\"cafee3f97f9fc4fb\",\n\t\t\t\t\"cafe1aade849ce81\",\n\t\t\t\t\"cafe97d0cbec8115\"\n\t\t\t]"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "cafee3f97f9fc4fb",
+				"name": "Notes",
+				"text": "\t\t\t\"value\": {\n\t\t\t\t\"m_nTicks\": 803908\n\t\t\t}"
+			}
+		}
+	],
+	"patchVersion": 6
+}

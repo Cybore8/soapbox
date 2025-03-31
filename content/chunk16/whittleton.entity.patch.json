@@ -1,0 +1,23 @@
+{
+	"tempHash": "00CDEB1217A791F9",
+	"tbluHash": "000841B1B3716764",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"256effeb7c55e4eb",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"256effeb7c55e4eb",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,9 +1,10 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
+	"id": "Cyb.Soapbox",
+	"name": "Soap",
+	"description": "Enables destroyed soap to create slippery puddles and swaps the static soap models with item versions.",
+	"authors": ["Cyb"],
+    "contentFolders": ["content"],
 	"frameworkVersion": "2.25.1"
 }

@@ -1,0 +1,128 @@
+{
+	"tempHash": "004C322AA93BA063",
+	"tbluHash": "001AB7C14C9DA3DD",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{ "SetName": "ItemSpawner First 1" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{
+					"SetFactory": "[modules:/zitemspawner.class].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{
+					"SetBlueprint": "[modules:/zitemspawner.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{ "RemovePropertyByName": "m_mTransform" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{
+					"AddProperty": [
+						"m_bUsePlacementAttach",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{
+					"AddProperty": [
+						"m_ePhysicsMode",
+						{
+							"type": "ZItemSpawner.EPhysicsMode",
+							"value": "EPM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{
+					"AddProperty": [
+						"m_rMainItemKey",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafe487305aec0f4",
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ef49553c1a4b71",
+				{
+					"AddProperty": [
+						"m_bSpawnOnStart",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0ef383f53214",
+				{
+					"parent": "43ef49553c1a4b71",
+					"name": "Spawn Soap",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe487305aec0f4",
+				{
+					"parent": "cafe0ef383f53214",
+					"name": "zItem 1",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "84f50c4c-de1d-41f3-8021-1cba7df987cd"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
