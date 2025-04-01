@@ -4,9 +4,256 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"e7df7d11bd2f6559",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fT",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"721ad037656479d2",
+				{
+					"AddEventConnection": [
+						"OnIActor",
+						"RemoveActor",
+						"cafefe1ebf11ce51"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a4d43019c5cf7f99",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": {
+								"x": 0,
+								"y": 0,
+								"z": 0.369999885559082
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a4d43019c5cf7f99",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fAspectWByH",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a4d43019c5cf7f99",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fFovYDeg",
+						"value": 45
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a4d43019c5cf7f99",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fFPSFovYDeg",
+						"value": 55
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1f956e9b0e1cca29",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_A",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1f956e9b0e1cca29",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fT",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"778d9f8fb9d9f04f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fT",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b93208277075c2e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": { "x": 0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b93208277075c2e",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantVector1D_09_Value",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b93208277075c2e",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantVector1D_24_Value",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b93208277075c2e",
+				{
+					"SetPropertyValue": {
+						"property_name": "Lerp_01_s",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"4b4862d04801ceef",
 				{
-					"AddEventConnection": ["FadeInDone", "Enable", "cafe0a597e568b2c"]
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": {
+								"x": 0,
+								"y": 0,
+								"z": 0.05000000074505806
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b4862d04801ceef",
+				{
+					"AddEventConnection": [
+						"FadeInDone",
+						"Enable",
+						"cafe0a597e568b2c"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b4862d04801ceef",
+				{
+					"AddEventConnection": [
+						"FadeInDone",
+						"Enable",
+						"cafe5e59a4e2a359"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e5dbf6afdd35a900",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": {
+								"x": 0,
+								"y": 0.4411039054393768,
+								"z": 2.8186960220336914
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"22aa8eb38298cc2d",
+				{
+					"AddEventConnection": [
+						"PollTrue",
+						"Enable",
+						"cafe3d758a2ecd8e"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"577e146da91f3e79",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": {
+								"x": 0,
+								"y": 0,
+								"z": 1.5982860326766968
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"577e146da91f3e79",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": { "x": 4, "y": 4, "z": 4 }
+					}
 				}
 			]
 		},
@@ -17,6 +264,54 @@
 					"SetPropertyValue": {
 						"property_name": "m_bValue",
 						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f728f2cde2c1d8ba",
+				{
+					"AddEventConnection": [
+						"OnFalse",
+						"Poll",
+						"cafe402ccf1c01e6"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"051ae8f3912dfe9a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": {
+								"x": 0,
+								"y": 0,
+								"z": 0.1469780057668686
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c393071fe116025",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": {
+								"x": 0,
+								"y": -3.5223679542541504,
+								"z": 0
+							}
+						}
 					}
 				}
 			]
@@ -40,7 +335,7 @@
 						"m_Boxes",
 						{
 							"originalProperty": "m_Boxes",
-							"originalEntity": "cafe0a597e568b2c"
+							"originalEntity": "cafe42eb34afd09f"
 						}
 					]
 				}
@@ -51,12 +346,56 @@
 				"1c393071fe116025",
 				{
 					"AddPropertyAliasConnection": [
-						"m_Boxes",
+						"m_rForbiddenKeywords",
 						{
-							"originalProperty": "m_Boxes",
-							"originalEntity": "cafe42eb34afd09f"
+							"originalProperty": "m_rForbiddenKeywords",
+							"originalEntity": "cafefe1ebf11ce51"
 						}
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4607e38371d160a8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fWeight4",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4607e38371d160a8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fWeight5",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8210a8dec145e1a6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_B",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8210a8dec145e1a6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fT",
+						"value": 0
+					}
 				}
 			]
 		},
@@ -223,7 +562,7 @@
 						},
 						"m_Boxes": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": []
+							"value": ["cafee96b776e5454"]
 						}
 					}
 				}
@@ -238,8 +577,8 @@
 					"factory": "[modules:/zhitmandamageovertime.class].pc_entitytype",
 					"blueprint": "[modules:/zhitmandamageovertime.class].pc_entityblueprint",
 					"properties": {
-						"m_fDamage": { "type": "float32", "value": 100.0 },
-						"m_fInterval": { "type": "float32", "value": 0.0 },
+						"m_fDamage": { "type": "float32", "value": 100 },
+						"m_fInterval": { "type": "float32", "value": 0 },
 						"m_Boxes": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": ["cafe42eb34afd09f"]
@@ -265,16 +604,8 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": {
-									"x": -0.0,
-									"y": 0.0,
-									"z": -0.0
-								},
-								"position": {
-									"x": 0.0,
-									"y": 0.0,
-									"z": 0.0
-								}
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
 							}
 						},
 						"m_vGlobalSize": {
@@ -431,14 +762,18 @@
 								"cafe1137fd0d3ca2",
 								"cafe2ee1d7f4d3cf",
 								"b6a13cd5f9a57fbe",
-								"cafe51b0c8762fb6"
+								"cafe51b0c8762fb6",
+								"cafeac0cd6afeac9"
 							],
 							"postInit": true
 						}
 					},
 					"events": {
 						"OnTrue": {
-							"SetFalse": ["cafe2ee1d7f4d3cf", "b6a13cd5f9a57fbe"],
+							"SetFalse": [
+								"cafe2ee1d7f4d3cf",
+								"b6a13cd5f9a57fbe"
+							],
 							"In": ["cafef5535d65b9d4", "cafeec6ae4e5d9b6"]
 						}
 					}
@@ -557,25 +892,251 @@
 			]
 		},
 		{
-			"AddComment": {
-				"parent": "cafe7469b2d7f30e",
-				"name": "Notes",
-				"text": "\t\t\t\"value\": {\n\t\t\t\t\"m_nTicks\": 16693328\n\t\t\t}"
-			}
+			"AddEntity": [
+				"cafee96b776e5454",
+				{
+					"parent": "cafe6fc4c9591401",
+					"name": "VolumeBox S",
+					"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": { "x": 3, "y": 3, "z": 3 }
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "4b4862d04801ceef"
+						}
+					}
+				}
+			]
 		},
 		{
-			"AddComment": {
-				"parent": "cafe295d3096d391",
-				"name": "Notes",
-				"text": "\t\t\t\"value\": [\n\t\t\t\t\"cafee3f97f9fc4fb\",\n\t\t\t\t\"cafe1aade849ce81\",\n\t\t\t\t\"cafe97d0cbec8115\"\n\t\t\t]"
-			}
+			"AddEntity": [
+				"cafe402ccf1c01e6",
+				{
+					"parent": "cafe47cf631b1a11",
+					"name": "Poll - Was Slippery Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "b6a13cd5f9a57fbe"
+						}
+					},
+					"events": {
+						"PollTrue": {
+							"In": ["17f8ec4e4c592e50", "df5b8cfbe2483038"]
+						}
+					}
+				}
+			]
 		},
 		{
-			"AddComment": {
-				"parent": "cafee3f97f9fc4fb",
-				"name": "Notes",
-				"text": "\t\t\t\"value\": {\n\t\t\t\t\"m_nTicks\": 803908\n\t\t\t}"
-			}
+			"AddEntity": [
+				"cafea8779e263f40",
+				{
+					"parent": "cafe402ccf1c01e6",
+					"name": "Once Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6fc4c9591401",
+				{
+					"parent": "1c393071fe116025",
+					"name": "01",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5e59a4e2a359",
+				{
+					"parent": "cafe6fc4c9591401",
+					"name": "VolumeTriggerCharacter 2S",
+					"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_TriggerOnHitman": {
+							"type": "bool",
+							"value": false
+						},
+						"m_TriggerOnActorAlive": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_TriggerOnOverlap": {
+							"type": "bool",
+							"value": false
+						},
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafee96b776e5454"]
+						}
+					},
+					"events": {
+						"OnTrue": { "Poll": ["22aa8eb38298cc2d"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefe1ebf11ce51",
+				{
+					"parent": "cafe6fc4c9591401",
+					"name": "ActorPicker S",
+					"factory": "[modules:/zactorpicker.class].pc_entitytype",
+					"blueprint": "[modules:/zactorpicker.class].pc_entityblueprint",
+					"properties": {
+						"m_nNumToCheck": { "type": "int32", "value": -1 },
+						"m_aVolumes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafee96b776e5454"]
+						},
+						"m_rForbiddenKeywords": {
+							"type": "SEntityTemplateReference",
+							"value": null
+						},
+						"m_aRandomEffects": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["721ad037656479d2"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefee1fd7b746a",
+				{
+					"parent": "cafe6fc4c9591401",
+					"name": "ValueBool_Poll_03s",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe3d758a2ecd8e"
+						}
+					},
+					"events": {
+						"PollTrue": {
+							"Poll": ["cafe774762e7e072"],
+							"In": ["cafe0c96cd07ed73"]
+						},
+						"PollFalse": {
+							"Abort": ["cafe0c96cd07ed73"],
+							"Disable": ["cafe5e59a4e2a359"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3d758a2ecd8e",
+				{
+					"parent": "cafefee1fd7b746a",
+					"name": "VolumeTriggerCharacter S",
+					"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_TriggerOnHitman": {
+							"type": "bool",
+							"value": false
+						},
+						"m_TriggerOnActorAlive": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bEnabled": { "type": "bool", "value": false },
+						"m_TriggerOnOverlap": {
+							"type": "bool",
+							"value": false
+						},
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafee96b776e5454"]
+						}
+					},
+					"events": {
+						"OnTrue": { "Poll": ["cafefee1fd7b746a"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe774762e7e072",
+				{
+					"parent": "cafe6fc4c9591401",
+					"name": "ValueBool_Poll",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "b6a13cd5f9a57fbe"
+						}
+					},
+					"events": {
+						"PollTrue": { "Pick": ["cafefe1ebf11ce51"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0c96cd07ed73",
+				{
+					"parent": "cafe6fc4c9591401",
+					"name": "TimerSimple 7s",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Delay time (ms)": {
+							"type": "int32",
+							"value": 500
+						}
+					},
+					"events": { "Out": { "Poll": ["cafefee1fd7b746a"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeac0cd6afeac9",
+				{
+					"parent": "cafe44adaf18f622",
+					"name": "Active ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6
