@@ -248,6 +248,11 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": ["cafe42eb34afd09f"]
 						}
+					},
+					"events": {
+						"OnTakeDamage": {
+							"Deactivate": ["cafe42eb34afd09f"]
+						}
 					}
 				}
 			]
@@ -278,7 +283,7 @@
 						},
 						"m_vGlobalSize": {
 							"type": "SVector3",
-							"value": { "x": 5, "y": 5, "z": 5 }
+							"value": { "x": 20, "y": 20, "z": 20 }
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
