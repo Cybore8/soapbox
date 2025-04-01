@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"4b4862d04801ceef",
 				{
-					"AddEventConnection": [
-						"FadeInDone",
-						"Enable",
-						"cafe0a597e568b2c"
-					]
+					"AddEventConnection": ["FadeInDone", "Enable", "cafe0a597e568b2c"]
 				}
 			]
 		},
@@ -442,10 +438,7 @@
 					},
 					"events": {
 						"OnTrue": {
-							"SetFalse": [
-								"cafe2ee1d7f4d3cf",
-								"b6a13cd5f9a57fbe"
-							],
+							"SetFalse": ["cafe2ee1d7f4d3cf", "b6a13cd5f9a57fbe"],
 							"In": ["cafef5535d65b9d4", "cafeec6ae4e5d9b6"]
 						}
 					}
