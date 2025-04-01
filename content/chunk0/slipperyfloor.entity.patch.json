@@ -17,11 +17,7 @@
 			"SubEntityOperation": [
 				"721ad037656479d2",
 				{
-					"AddEventConnection": [
-						"OnIActor",
-						"RemoveActor",
-						"cafefe1ebf11ce51"
-					]
+					"AddEventConnection": ["OnIActor", "RemoveActor", "cafefe1ebf11ce51"]
 				}
 			]
 		},
@@ -178,11 +174,7 @@
 			"SubEntityOperation": [
 				"4b4862d04801ceef",
 				{
-					"AddEventConnection": [
-						"FadeInDone",
-						"Enable",
-						"cafe0a597e568b2c"
-					]
+					"AddEventConnection": ["FadeInDone", "Enable", "cafe0a597e568b2c"]
 				}
 			]
 		},
@@ -190,11 +182,7 @@
 			"SubEntityOperation": [
 				"4b4862d04801ceef",
 				{
-					"AddEventConnection": [
-						"FadeInDone",
-						"Enable",
-						"cafe5e59a4e2a359"
-					]
+					"AddEventConnection": ["FadeInDone", "Enable", "cafe5e59a4e2a359"]
 				}
 			]
 		},
@@ -220,11 +208,7 @@
 			"SubEntityOperation": [
 				"22aa8eb38298cc2d",
 				{
-					"AddEventConnection": [
-						"PollTrue",
-						"Enable",
-						"cafe3d758a2ecd8e"
-					]
+					"AddEventConnection": ["PollTrue", "Enable", "cafe3d758a2ecd8e"]
 				}
 			]
 		},
@@ -272,11 +256,7 @@
 			"SubEntityOperation": [
 				"f728f2cde2c1d8ba",
 				{
-					"AddEventConnection": [
-						"OnFalse",
-						"Poll",
-						"cafe402ccf1c01e6"
-					]
+					"AddEventConnection": ["OnFalse", "Poll", "cafe402ccf1c01e6"]
 				}
 			]
 		},
@@ -770,10 +750,7 @@
 					},
 					"events": {
 						"OnTrue": {
-							"SetFalse": [
-								"cafe2ee1d7f4d3cf",
-								"b6a13cd5f9a57fbe"
-							],
+							"SetFalse": ["cafe2ee1d7f4d3cf", "b6a13cd5f9a57fbe"],
 							"In": ["cafef5535d65b9d4", "cafeec6ae4e5d9b6"]
 						}
 					}
