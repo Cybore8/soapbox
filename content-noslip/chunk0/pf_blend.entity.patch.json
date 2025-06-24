@@ -1,0 +1,146 @@
+{
+	"tempHash": "0072BC2B790950B2",
+	"tbluHash": "00DDE321E5355684",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe0cb8a8b750f4",
+				{
+					"parent": "cafe428de9401a9b",
+					"name": "Cyb_SlipBlackout",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "Cyb_SlipBlackout"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee929ef80cd2b",
+				{
+					"parent": "cafe428de9401a9b",
+					"name": "Cyb_EventChannelReceiver_void_02 Destroyed",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe0cb8a8b750f4"
+						}
+					},
+					"events": {
+						"EventReceived": {
+							"BlackBlendIn": ["9d125cc1e52f632e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7bedf6d1722b",
+				{
+					"parent": "cafee929ef80cd2b",
+					"name": "Erased ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb5b90d8433f8",
+				{
+					"parent": "9d125cc1e52f632e",
+					"name": "Soap_TransmitReceive",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe428de9401a9b",
+				{
+					"parent": "cafeb5b90d8433f8",
+					"name": "Slip In",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe801355c64742",
+				{
+					"parent": "cafee453a9e78da0",
+					"name": "Cyb_SlipRecover",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "Cyb_SlipRecover"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed720171eed69",
+				{
+					"parent": "cafee453a9e78da0",
+					"name": "Cyb_EventChannelReceiver_void_02 Destroyed",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe801355c64742"
+						}
+					},
+					"events": {
+						"EventReceived": {
+							"BlackBlendOut": ["9d125cc1e52f632e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecf124ec791f0",
+				{
+					"parent": "cafed720171eed69",
+					"name": "Erased ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee453a9e78da0",
+				{
+					"parent": "cafeb5b90d8433f8",
+					"name": "Slip Out",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

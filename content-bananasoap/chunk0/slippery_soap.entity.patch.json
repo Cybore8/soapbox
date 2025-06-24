@@ -1,0 +1,3445 @@
+{
+	"tempHash": "009F8C707F6456CC",
+	"tbluHash": "00E0264B3C5DFBF1",
+	"patch": [
+		{
+			"SetRootEntity": "1d1020e238534d7a"
+		},
+		{
+			"RemoveEntityByID": "40fa0272956da241"
+		},
+		{
+			"RemoveEntityByID": "2d4d0b3108ba28a0"
+		},
+		{
+			"RemoveEntityByID": "63aa166b612f384e"
+		},
+		{
+			"RemoveEntityByID": "cf9928afcbcd72cc"
+		},
+		{
+			"RemoveEntityByID": "d8325e9c7587b503"
+		},
+		{
+			"RemoveEntityByID": "f45c851f927f26ff"
+		},
+		{
+			"RemoveEntityByID": "7e1000c57a4dd9bc"
+		},
+		{
+			"RemoveEntityByID": "4444a14b7f5872b2"
+		},
+		{
+			"RemoveEntityByID": "c0aad73a2ac47371"
+		},
+		{
+			"RemoveEntityByID": "051b19327282af20"
+		},
+		{
+			"RemoveEntityByID": "29bc5eb16e7c7b8a"
+		},
+		{
+			"RemoveEntityByID": "7900bcc76a23bf4a"
+		},
+		{
+			"RemoveEntityByID": "eb9ebc8b955290ef"
+		},
+		{
+			"RemoveEntityByID": "660b052ab610beab"
+		},
+		{
+			"RemoveEntityByID": "0d3689f10e7f19dd"
+		},
+		{
+			"RemoveEntityByID": "ebf283ff54c3b348"
+		},
+		{
+			"RemoveEntityByID": "259aaf36bcd2a568"
+		},
+		{
+			"RemoveEntityByID": "e33a6859d4d7a6d0"
+		},
+		{
+			"AddEntity": [
+				"ef91d86c4845f06b",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ValueBool_Basic",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"fe7b3669a9d1f9c8",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "keyword_ITEMRULE_LEGAL",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_legal.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_legal.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"8fe188a3212343a2"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"7dbb4136061813c4",
+				{
+					"parent": "d2755c02eb73075b",
+					"name": "FX_PR_Liquid_Rupture_8x3_Milk_01",
+					"factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_rupture_8x3_milk_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_rupture_8x3_milk_01.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"488c878a105ad789",
+				{
+					"parent": "43b1f85b7fa31054",
+					"name": "MorphemeBoneTrack",
+					"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sSlotName": {
+							"type": "ZString",
+							"value": "FullBody"
+						},
+						"m_bUpperBody": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bRunAIInGaps": {
+							"type": "bool",
+							"value": true
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "43b1f85b7fa31054",
+							"postInit": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"aac45f1517c6eb78"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"d341c0b2b7daa35a",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "DONTUSE_ValueBool_Set",
+					"factory": "[modules:/zvaluebool_set.class].pc_entitytype",
+					"blueprint": "[modules:/zvaluebool_set.class].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "1d7cee83b19d90ef",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"d5ea43298a018c31",
+				{
+					"parent": "548f086f004420ed",
+					"name": "EntityTrack_ ActorStandIn",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "d5cb5f7b7fc2d276",
+							"postInit": true
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"ddd477d6a2e3de51",
+								"100beb3d57ad58a0"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"8d8705fc1b508372",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ProbabilitySwitch 2",
+					"factory": "[modules:/zprobabilityswitch.class].pc_entitytype",
+					"blueprint": "[modules:/zprobabilityswitch.class].pc_entityblueprint",
+					"properties": {
+						"m_fWeight3": {
+							"type": "float32",
+							"value": 0.33000001311302187
+						},
+						"m_fWeight4": {
+							"type": "float32",
+							"value": 0
+						},
+						"m_fWeight5": {
+							"type": "float32",
+							"value": 0
+						},
+						"m_bEnabled": {
+							"type": "bool",
+							"value": true
+						},
+						"m_fWeight1": {
+							"type": "float32",
+							"value": 0.33000001311302187
+						},
+						"m_fWeight2": {
+							"type": "float32",
+							"value": 0.33000001311302187
+						}
+					},
+					"events": {
+						"Output1": {
+							"Start": [
+								"899444b28314f5dd"
+							]
+						},
+						"Output2": {
+							"Start": [
+								"548f086f004420ed"
+							]
+						},
+						"Output3": {
+							"Start": [
+								"9bfa833aa8418c27"
+							]
+						},
+						"Output4": {
+							"TransmitEvent": [
+								"d71c24ad64b9ca6a"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"5ad711251ec1d374",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "VolumeSphere",
+					"factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_fRadius": {
+							"type": "float32",
+							"value": 0.5000000059604645
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"548f086f004420ed",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "SEQ_MR_BananaSlide_02",
+					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+					"properties": {
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 838860
+							}
+						},
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"d5ea43298a018c31",
+								"28803967b58535b3"
+							],
+							"postInit": true
+						}
+					},
+					"events": {
+						"Event_Track_pacify_Fired": {
+							"PacifyByAccident": [
+								"b202d951b4347ecd"
+							]
+						},
+						"Stopped": {
+							"PacifyByAccident": [
+								"b202d951b4347ecd"
+							]
+						},
+						"OnStart": {
+							"Start": [
+								"00c889d9c84ca6f7"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"c98e369ff50ccd17",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "Splat",
+					"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out03": {
+							"DestroyItem": [
+								"854994bf10c55019"
+							]
+						},
+						"Out04": {
+							"SetFalse": [
+								"d341c0b2b7daa35a"
+							],
+							"SetVisiblex": [
+								{
+									"ref": "8fe188a3212343a2",
+									"value": {
+										"type": "bool",
+										"value": false
+									}
+								}
+							]
+						},
+						"Out01": {
+							"BreakAll": [
+								"8fe188a3212343a2"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"b9c1e52ca986ebe6",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ActorPickerFilterBehaviorSelectionDisabled",
+					"factory": "[modules:/zactorpickerfilterbehaviorselectiondisabled.class].pc_entitytype",
+					"blueprint": "[modules:/zactorpickerfilterbehaviorselectiondisabled.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"8fe188a3212343a2",
+				{
+					"parent": "cafed030b77e8c9b",
+					"name": "ItemArt_Soap_B",
+					"factory": "[assembly:/_pro/items/templates/melee/melee.template?/itemart_soap_b.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/items/templates/melee/melee.template?/itemart_soap_b.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": -6.558413028717041,
+									"y": 5.524479866027832,
+									"z": -0.4259999990463257
+								}
+							}
+						},
+						"m_bEnableCollision": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": null,
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"43b1f85b7fa31054",
+				{
+					"parent": "9bfa833aa8418c27",
+					"name": "EntityTrack_ ActorStandIn",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "d5cb5f7b7fc2d276",
+							"postInit": true
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"40634c8da00fb4f1",
+								"488c878a105ad789"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"9bfa833aa8418c27",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "SEQ_MR_BananaSlide_03",
+					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+					"properties": {
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 1363148
+							}
+						},
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"43b1f85b7fa31054",
+								"c929e6181b8a3ac9"
+							],
+							"postInit": true
+						}
+					},
+					"events": {
+						"Event_Track_pacify_Fired": {
+							"PacifyByAccident": [
+								"b202d951b4347ecd"
+							]
+						},
+						"Stopped": {
+							"PacifyByAccident": [
+								"b202d951b4347ecd"
+							]
+						},
+						"OnStart": {
+							"Start": [
+								"00c889d9c84ca6f7"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"88f26dcaf0f27bcc",
+				{
+					"parent": "efd8985f96b666a4",
+					"name": "FX_E_Impact_Dirt_Soft",
+					"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_e_impact_dirt_soft.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_e_impact_dirt_soft.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_ParticleColorRangeStart": {
+							"type": "SColorRGB",
+							"value": "#982cbf"
+						},
+						"m_ParticleColorRangeEnd": {
+							"type": "SColorRGB",
+							"value": "#982cbf"
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 8
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 15
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "efd8985f96b666a4",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"a9d5db4d001ebea8",
+				{
+					"parent": "c929e6181b8a3ac9",
+					"name": "pacify",
+					"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 524288
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 104857
+							}
+						}
+					},
+					"outputCopying": {
+						"Fired": {
+							"pacify_Fired": [
+								"c929e6181b8a3ac9"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"1d7cee83b19d90ef",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "DONTUSE_ValueBool_EntityProperty",
+					"factory": "[modules:/zvaluebool_entityproperty.class].pc_entitytype",
+					"blueprint": "[modules:/zvaluebool_entityproperty.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "m_bForceVisible"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"d2cac597fd60339d",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "HM5ItemInteractionEventConsumer",
+					"factory": "[modules:/zhm5iteminteractioneventconsumer.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5iteminteractioneventconsumer.class].pc_entityblueprint",
+					"events": {
+						"ItemImpactBack": {
+							"Impact_Back": [
+								"6df2c76a309e4dc0"
+							]
+						},
+						"ItemImpactFront": {
+							"Impact": [
+								"6df2c76a309e4dc0"
+							]
+						},
+						"ItemImpactLow": {
+							"ItemImpactLow": [
+								"6df2c76a309e4dc0"
+							]
+						},
+						"ItemOnDeadlyThrow": {
+							"OnThrown": [
+								"6df2c76a309e4dc0"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"00c889d9c84ca6f7",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ActorSpeak_SoundDef_Dth_Poison",
+					"factory": "[modules:/zspeakentity_sounddef.class].pc_entitytype",
+					"blueprint": "[modules:/zspeakentity_sounddef.class].pc_entityblueprint",
+					"properties": {
+						"m_eSoundDef": {
+							"type": "EActorSoundDefs",
+							"value": "Exp_InPain"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"d71c24ad64b9ca6a",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "EventChannelTransmitter_void",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "c67cbd7d3853c0ff",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"b202d951b4347ecd",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ActorProxy",
+					"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_rSetpiece": {
+							"type": "SEntityTemplateReference",
+							"value": "e3ed5ea062a14a82",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"28803967b58535b3",
+				{
+					"parent": "548f086f004420ed",
+					"name": "Event Track",
+					"factory": "[modules:/zeventtrack.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
+					"properties": {
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"2dbe9e030223dcba"
+							],
+							"postInit": true
+						}
+					},
+					"outputCopying": {
+						"pacify_Fired": {
+							"Event_Track_pacify_Fired": [
+								"548f086f004420ed"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"0304d924c3bbfbb4",
+				{
+					"parent": "100beb3d57ad58a0",
+					"name": "BoneResourceItem",
+					"factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 768955
+							}
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "005F857E9153400D",
+								"flag": "5F"
+							}
+						},
+						"m_fBlendIn": {
+							"type": "float32",
+							"value": 0.07353884726762772
+						},
+						"m_fBlendOut": {
+							"type": "float32",
+							"value": 0.09203553944826126
+						},
+						"m_bCrop": {
+							"type": "bool",
+							"value": false
+						},
+						"m_SkipFromEnd": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"414e451241f82b62",
+				{
+					"parent": "efd8985f96b666a4",
+					"name": "FX_PR_Liquid_Splash_4t_8x8_Water_01",
+					"factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_splash_4t_8x8_water_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_splash_4t_8x8_water_01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Opacity": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"Blur": {
+							"type": "float32",
+							"value": 0
+						},
+						"Refraction": {
+							"type": "float32",
+							"value": 300
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"d5cb5f7b7fc2d276",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ActorStandIn",
+					"factory": "[modules:/zactorstandin.class].pc_entitytype",
+					"blueprint": "[modules:/zactorstandin.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"01b9e756158f40c0",
+				{
+					"parent": "899444b28314f5dd",
+					"name": "EntityTrack_ ActorStandIn",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "d5cb5f7b7fc2d276"
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"bb12d59f19d0052b",
+								"32325befb494117b"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"aac45f1517c6eb78",
+				{
+					"parent": "488c878a105ad789",
+					"name": "BoneResourceItem",
+					"factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 1363148
+							}
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00050BB7A39ECA12",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"e3ed5ea062a14a82",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "Setpiece",
+					"factory": "[modules:/zsetpieceentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsetpieceentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "90922481-cf35-455b-9321-8baceb51ed62"
+						},
+						"m_rSetpiece": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2"
+						},
+						"m_rSpatial": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"98e60a41670eb405",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "SignalFork_Void_01",
+					"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out02": {
+							"In": [
+								"a4327c5652a9b798"
+							]
+						},
+						"Out01": {
+							"Enable": [
+								"75c4ef7e66e3ad1a"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"7b0f4ee674a2b6f2",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "SignalPipe_Conditional_Void",
+					"factory": "[assembly:/_pro/design/logic/signalpipes.template?/signalpipe_conditional_void.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/signalpipe_conditional_void.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_condition": {
+							"type": "SEntityTemplateReference",
+							"value": "ef91d86c4845f06b"
+						}
+					},
+					"events": {
+						"Out": {
+							"Pick": [
+								"2cb728b255f79661"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"32325befb494117b",
+				{
+					"parent": "01b9e756158f40c0",
+					"name": "MorphemeBoneTrack",
+					"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+					"properties": {
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "01b9e756158f40c0"
+						},
+						"m_sSlotName": {
+							"type": "ZString",
+							"value": "FullBody"
+						},
+						"m_bUpperBody": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bRunAIInGaps": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"9ebf1e1506aa9b7e"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"a9b9ebbfb448f30d",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "TimerSimple",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Delay time (ms)": {
+							"type": "int32",
+							"value": 100
+						}
+					},
+					"events": {
+						"Out": {
+							"Input": [
+								"8d8705fc1b508372"
+							],
+							"In": [
+								"c98e369ff50ccd17"
+							],
+							"Send": [
+								"0b92fae067f7a534"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"8ba96889b6821d60",
+				{
+					"parent": "d2755c02eb73075b",
+					"name": "FX_PR_Liquid_Splash_4t_8x8_Water_01",
+					"factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_splash_4t_8x8_water_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_splash_4t_8x8_water_01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Opacity": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"Blur": {
+							"type": "float32",
+							"value": 0
+						},
+						"Refraction": {
+							"type": "float32",
+							"value": 300
+						},
+						"Reflectivity": {
+							"type": "float32",
+							"value": 0.6000000238418579
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"f1a303a1514bb506",
+				{
+					"parent": "cafed030b77e8c9b",
+					"name": "SignalFork_Void",
+					"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out01": {
+							"SetTrue": [
+								"d341c0b2b7daa35a"
+							],
+							"Detach": [
+								"efd8985f96b666a4"
+							]
+						},
+						"Out02": {
+							"Activate": [
+								"efd8985f96b666a4"
+							]
+						},
+						"Out03": {
+							"DestroyItem": [
+								"854994bf10c55019"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"ddd477d6a2e3de51",
+				{
+					"parent": "d5ea43298a018c31",
+					"name": "MorphemeTrajectoryTrack",
+					"factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "d5ea43298a018c31"
+						},
+						"m_bRunAIInGaps": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"e3b6c09081389748"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"80701a67bbdd20f0",
+				{
+					"parent": "d2755c02eb73075b",
+					"name": "FX_PB_Impact_Water_Splash",
+					"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"AlphaCurve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0,
+										0.9861686825752258,
+										0,
+										0,
+										0.21201376616954804,
+										-0.7059838175773621,
+										-4.7510216977836618e-17,
+										0.9861686825752258
+									],
+									[
+										0.4646293818950653,
+										0.492198646068573,
+										0,
+										0,
+										0.21201376616954804,
+										0.06994253396987915,
+										-0.7759263515472412,
+										0.492198646068573
+									],
+									[
+										0.9292587637901306,
+										-0.0017714147688820959,
+										0,
+										0,
+										0,
+										0,
+										0,
+										-0.0017714147688820959
+									]
+								]
+							}
+						},
+						"m_fMotionStretchFactor": {
+							"type": "float32",
+							"value": 2
+						},
+						"m_FixedAlpha": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 150
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 200
+						},
+						"m_ParticleColorRangeStart": {
+							"type": "SColorRGB",
+							"value": "#aa5ebd"
+						},
+						"m_ParticleColorRangeEnd": {
+							"type": "SColorRGB",
+							"value": "#aa5ebd"
+						},
+						"m_bMultiTrack": {
+							"type": "bool",
+							"value": true
+						},
+						"m_fArrayIndexB": {
+							"type": "float32",
+							"value": 23
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"m_vGravity": {
+							"type": "SVector3",
+							"value": {
+								"x": 0,
+								"y": 0,
+								"z": -1
+							}
+						},
+						"m_bEmitFrozen": {
+							"type": "bool",
+							"value": false
+						},
+						"m_ePivotLocation": {
+							"type": "EParticleSpritePivotLocation",
+							"value": "CENTER_PIVOT"
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 0.25
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"c67cbd7d3853c0ff",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "eventtoken_prop_bananaslip",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_prop_bananaslip.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_prop_bananaslip.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"c929e6181b8a3ac9",
+				{
+					"parent": "9bfa833aa8418c27",
+					"name": "Event Track",
+					"factory": "[modules:/zeventtrack.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
+					"properties": {
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"a9d5db4d001ebea8"
+							]
+						}
+					},
+					"outputCopying": {
+						"pacify_Fired": {
+							"Event_Track_pacify_Fired": [
+								"9bfa833aa8418c27"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"31d2fd3a45ea952a",
+				{
+					"parent": "d2755c02eb73075b",
+					"name": "FX_E_Impact_Dirt_Soft",
+					"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_e_impact_dirt_soft.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_e_impact_dirt_soft.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_ParticleColorRangeStart": {
+							"type": "SColorRGB",
+							"value": "#aa5ebd"
+						},
+						"m_ParticleColorRangeEnd": {
+							"type": "SColorRGB",
+							"value": "#aa5ebd"
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 20
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 25
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "d2755c02eb73075b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"d5fb9b2903efd7d5",
+				{
+					"parent": "899444b28314f5dd",
+					"name": "Event Track",
+					"factory": "[modules:/zeventtrack.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
+					"properties": {
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"5615b6b7c639ad55"
+							],
+							"postInit": true
+						}
+					},
+					"outputCopying": {
+						"pacify_Fired": {
+							"Event_Track_pacify_Fired": [
+								"899444b28314f5dd"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"ce913b7545e9c6bf",
+				{
+					"parent": "d2755c02eb73075b",
+					"name": "FX_PB_Impact_Debris02",
+					"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_ridDecalMaterial": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/environment/materials/decals/grapedecal_chunky_2x2_a.mi].pc_mi",
+								"flag": "5F"
+							}
+						},
+						"m_ParticleColorRangeStart": {
+							"type": "SColorRGB",
+							"value": "#aa5ebd"
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 8
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 5
+						},
+						"DecalTilesY": {
+							"type": "uint32",
+							"value": 2
+						},
+						"m_fArrayIndexMax": {
+							"type": "float32",
+							"value": 23
+						},
+						"m_fFriction": {
+							"type": "float32",
+							"value": 250
+						},
+						"m_vGravity": {
+							"type": "SVector3",
+							"value": {
+								"x": 0,
+								"y": 0,
+								"z": -5.21999979019165
+							}
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 3
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_fRotationSpeedMax": {
+							"type": "float32",
+							"value": 2
+						},
+						"m_fRotationSpeedMin": {
+							"type": "float32",
+							"value": -2
+						},
+						"m_bKillParticlesOnCollision": {
+							"type": "bool",
+							"value": true
+						},
+						"DecalTilesX": {
+							"type": "uint32",
+							"value": 2
+						},
+						"m_ParticleColorRangeEnd": {
+							"type": "SColorRGB",
+							"value": "#aa5ebd"
+						},
+						"AlphaCurve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										-0.9949184060096741,
+										1
+									],
+									[
+										1,
+										0.005081587936729193,
+										0,
+										0,
+										0,
+										0,
+										0,
+										0.005081587936729193
+									]
+								]
+							}
+						},
+						"DecalSizeMultiplier": {
+							"type": "float32",
+							"value": 2
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"8e49d58c7584e050",
+				{
+					"parent": "efd8985f96b666a4",
+					"name": "FX_PR_Liquid_Rupture_8x3_Milk_01",
+					"factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_rupture_8x3_milk_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_rupture_8x3_milk_01.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"6e4d36fdb9da7847",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "EventConsumerCollection",
+					"factory": "[modules:/zeventconsumercollection.class].pc_entitytype",
+					"blueprint": "[modules:/zeventconsumercollection.class].pc_entityblueprint",
+					"properties": {
+						"m_BaseEventConsumers": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"d2cac597fd60339d"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"2dbe9e030223dcba",
+				{
+					"parent": "28803967b58535b3",
+					"name": "pacify",
+					"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 524288
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 104857
+							}
+						}
+					},
+					"outputCopying": {
+						"Fired": {
+							"pacify_Fired": [
+								"28803967b58535b3"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"9ebf1e1506aa9b7e",
+				{
+					"parent": "32325befb494117b",
+					"name": "BoneResourceItem",
+					"factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 803908
+							}
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "004F079F4BBE9EA0",
+								"flag": "5F"
+							}
+						},
+						"m_fBlendIn": {
+							"type": "float32",
+							"value": 0.1454257220029831
+						},
+						"m_fBlendOut": {
+							"type": "float32",
+							"value": 0.1398196965456009
+						},
+						"m_bCrop": {
+							"type": "bool",
+							"value": false
+						},
+						"m_SkipFromEnd": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"e3b6c09081389748",
+				{
+					"parent": "ddd477d6a2e3de51",
+					"name": "TrajectoryResourceItem",
+					"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 768955
+							}
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_CHARACTER_RELATIVE"
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "005F857E9153400D",
+								"flag": "5F"
+							}
+						},
+						"m_bCrop": {
+							"type": "bool",
+							"value": false
+						},
+						"m_SkipFromEnd": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"2cb728b255f79661",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ActorPicker",
+					"factory": "[modules:/zactorpicker.class].pc_entitytype",
+					"blueprint": "[modules:/zactorpicker.class].pc_entityblueprint",
+					"properties": {
+						"m_aVolumes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"5ad711251ec1d374"
+							]
+						},
+						"m_aFilters": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"b9c1e52ca986ebe6"
+							]
+						},
+						"m_aEnterEffects": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"73b5d7ff1fe9f952"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"73b5d7ff1fe9f952",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ActorPickerEffectReference",
+					"factory": "[modules:/zactorpickereffectreference.class].pc_entitytype",
+					"blueprint": "[modules:/zactorpickereffectreference.class].pc_entityblueprint",
+					"events": {
+						"OnIActor": {
+							"SetIActor": [
+								"b202d951b4347ecd",
+								"d5cb5f7b7fc2d276",
+								"00c889d9c84ca6f7"
+							],
+							"Variant": [
+								"8dad668d1d5d980b"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"75c4ef7e66e3ad1a",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "VolumeTriggerCharacter",
+					"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"m_Spheres": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"5ad711251ec1d374"
+							]
+						},
+						"m_TriggerOnHitman": {
+							"type": "bool",
+							"value": false
+						},
+						"m_TriggerOnActorAlive": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bEnabled": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"events": {
+						"OnTrue": {
+							"In": [
+								"7b0f4ee674a2b6f2"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"100beb3d57ad58a0",
+				{
+					"parent": "d5ea43298a018c31",
+					"name": "MorphemeBoneTrack",
+					"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+					"properties": {
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "d5ea43298a018c31"
+						},
+						"m_sSlotName": {
+							"type": "ZString",
+							"value": "FullBody"
+						},
+						"m_bUpperBody": {
+							"type": "bool",
+							"value": false
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"0304d924c3bbfbb4"
+							]
+						},
+						"m_bRunAIInGaps": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"3fc16dd9e07da319",
+				{
+					"parent": "40634c8da00fb4f1",
+					"name": "TrajectoryResourceItem",
+					"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 1363148
+							}
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_CHARACTER_RELATIVE"
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00050BB7A39ECA12",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"0b4880e10c541385",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "VR_CloseCombat_Swoosh",
+					"factory": "00F4AF3B2208119C",
+					"blueprint": "006FCA37772BBA44",
+					"properties": {
+						"Type_Metal_Medium": {
+							"type": "bool",
+							"value": false
+						},
+						"Type_Wood": {
+							"type": "bool",
+							"value": false
+						},
+						"Type_Generic": {
+							"type": "bool",
+							"value": true
+						},
+						"RTPC_Generic_Pitch": {
+							"type": "float32",
+							"value": 250
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2",
+							"postInit": true
+						},
+						"Equipped": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "854994bf10c55019",
+									"externalScene": null,
+									"exposedEntity": "IsEquipped"
+								}
+							],
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": [
+							"1d1020e238534d7a"
+						]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"a4327c5652a9b798",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "TimerSimple 1",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Delay time (ms)": {
+							"type": "int32",
+							"value": 200
+						}
+					},
+					"events": {
+						"Out": {
+							"SetTrue": [
+								"ef91d86c4845f06b"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"8dad668d1d5d980b",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "VariantConverter_void_",
+					"factory": "[modules:/zhm5variantconverterentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
+					"events": {
+						"Value": {
+							"In": [
+								"a9b9ebbfb448f30d"
+							],
+							"Disable": [
+								"75c4ef7e66e3ad1a"
+							],
+							"DestroyItem": [
+								"854994bf10c55019"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"4b522524f9df688b",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "CCEffect_Blunt01",
+					"factory": "[modules:/zcceffectsetentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcceffectsetentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEmitterEffect": {
+							"type": "ECCEmitterEffect",
+							"value": "eCCEmitterEffect_FacePunch"
+						},
+						"m_eDecalEffect": {
+							"type": "ECCDecalEffect",
+							"value": "eCCDecalEffect_None"
+						},
+						"m_nEvent": {
+							"type": "uint32",
+							"value": 731
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"32f5843b8b4804ce",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "CCEffect_Blunt",
+					"factory": "[modules:/zcceffectsetentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcceffectsetentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEmitterEffect": {
+							"type": "ECCEmitterEffect",
+							"value": "eCCEmitterEffect_FacePunch"
+						},
+						"m_eDecalEffect": {
+							"type": "ECCDecalEffect",
+							"value": "eCCDecalEffect_FacePunch"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"854994bf10c55019",
+				{
+					"parent": "cafed030b77e8c9b",
+					"name": "CCWeaponCoreNoPhys",
+					"factory": "[assembly:/_pro/design/gamecore/itemcore.template?/ccweaponcorenophys.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/itemcore.template?/ccweaponcorenophys.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rGeomentity": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2"
+						},
+						"m_eAnimSetFrontSide": {
+							"type": "ECCWeaponAnimSet",
+							"value": "AS_SMASH_1H"
+						},
+						"m_eAnimSetBack": {
+							"type": "ECCWeaponAnimSet",
+							"value": "AS_SMASH_1H"
+						},
+						"m_pVariationResource": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe31a8d072638f"
+						},
+						"m_aEffectSetsFrontSide": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafecf2b51808637"
+							]
+						},
+						"m_aEffectSetsBack": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafecf2b51808637"
+							]
+						},
+						"m_PosHandAttach": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "8fe188a3212343a2",
+								"externalScene": null,
+								"exposedEntity": "HandAttacherSpatial"
+							}
+						},
+						"m_eDeathTypeFront": {
+							"type": "EDeathType",
+							"value": "eDT_PACIFY"
+						},
+						"m_eDeathTypeBack": {
+							"type": "EDeathType",
+							"value": "eDT_PACIFY"
+						},
+						"m_PosPlacementAttach": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "8fe188a3212343a2",
+								"externalScene": null,
+								"exposedEntity": "PropHelper_Item_Placement"
+							}
+						},
+						"m_EventConsumerCollection": {
+							"type": "SEntityTemplateReference",
+							"value": "6e4d36fdb9da7847"
+						},
+						"m_bKinematic": {
+							"type": "bool",
+							"value": true
+						},
+						"m_PlacementVolume": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "8fe188a3212343a2",
+								"externalScene": null,
+								"exposedEntity": "PlacementVolume"
+							}
+						}
+					},
+					"events": {
+						"WeaponPlayerEquipped": {
+							"Item_Equipped": [
+								"6df2c76a309e4dc0"
+							]
+						},
+						"WeaponPlayerUnEquipped": {
+							"Item_UnEquipped": [
+								"6df2c76a309e4dc0"
+							]
+						},
+						"DeadlyThrowImpact": {
+							"DeadlyThrowImpact": [
+								"6df2c76a309e4dc0"
+							],
+							"In": [
+								"c98e369ff50ccd17"
+							]
+						},
+						"OnPlaced": {
+							"ItemPlaced": [
+								"6df2c76a309e4dc0"
+							],
+							"In": [
+								"cafe5cdbc2e87967"
+							]
+						},
+						"OnPutInContainer": {
+							"ItemPlaced": [
+								"6df2c76a309e4dc0"
+							]
+						},
+						"OnThrown": {
+							"OnThrown_MixingEvent": [
+								"6df2c76a309e4dc0"
+							],
+							"Throw": [
+								"0b4880e10c541385"
+							],
+							"DisablePickup": [
+								"854994bf10c55019"
+							],
+							"DestroyItem": [
+								"854994bf10c55019"
+							],
+							"SetInPhysicsWorldx": [
+								{
+									"ref": "8fe188a3212343a2",
+									"value": {
+										"type": "bool",
+										"value": false
+									}
+								}
+							]
+						},
+						"OwnedByHitman": {
+							"Disable": [
+								"75c4ef7e66e3ad1a"
+							]
+						},
+						"ImpactBack": {
+							"ImpactBack": [
+								"fcf97bec9f7d4728"
+							],
+							"OnMeleeImpact": [
+								"cafece4b190faa20"
+							],
+							"In": [
+								"cafedd7626ea29a7"
+							],
+							"Inx": [
+								"cafe593cf4febfcb"
+							]
+						},
+						"ImpactFrontSide": {
+							"ImpactFront": [
+								"fcf97bec9f7d4728"
+							],
+							"OnMeleeImpact": [
+								"cafece4b190faa20"
+							],
+							"In": [
+								"cafedd7626ea29a7"
+							],
+							"Inx": [
+								"cafe593cf4febfcb"
+							]
+						},
+						"OnStartPriming": {
+							"PrimeStartFloat": [
+								"fcf97bec9f7d4728"
+							]
+						},
+						"OnItemPrimed": {
+							"PrimeStart": [
+								"fcf97bec9f7d4728"
+							]
+						},
+						"OnStopPriming": {
+							"PrimeStop": [
+								"fcf97bec9f7d4728"
+							]
+						}
+					},
+					"subsets": {
+						"Replicable": [
+							"1d1020e238534d7a"
+						]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"1d1020e238534d7a",
+				{
+					"parent": null,
+					"name": "Prop_Melee_SlipperySoap_Runtime",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 7.916584014892578,
+									"z": -0.11899399757385254
+								}
+							}
+						}
+					},
+					"propertyAliases": {
+						"Kinematic": [
+							{
+								"originalProperty": "Kinematic",
+								"originalEntity": "854994bf10c55019"
+							}
+						],
+						"m_bStartKinematic": [
+							{
+								"originalProperty": "m_bStartKinematic",
+								"originalEntity": "854994bf10c55019"
+							}
+						],
+						"m_bStartPhysical": [
+							{
+								"originalProperty": "m_bStartPhysical",
+								"originalEntity": "854994bf10c55019"
+							}
+						],
+						"m_bStartVisible": [
+							{
+								"originalProperty": "m_bStartVisible",
+								"originalEntity": "854994bf10c55019"
+							}
+						],
+						"m_eidParent": [
+							{
+								"originalProperty": "m_eidParent",
+								"originalEntity": "8fe188a3212343a2"
+							}
+						],
+						"m_mTransform": [
+							{
+								"originalProperty": "m_mTransform",
+								"originalEntity": "8fe188a3212343a2"
+							}
+						]
+					},
+					"exposedInterfaces": {
+						"IPhysicsAccessor": "8fe188a3212343a2",
+						"IDynamicPhysics": "8fe188a3212343a2",
+						"IItemWeapon": "854994bf10c55019",
+						"IItem": "854994bf10c55019",
+						"ZHM5ItemCCWeapon": "854994bf10c55019",
+						"ZHM5Item": "854994bf10c55019",
+						"IItemBase": "854994bf10c55019",
+						"ZGeomEntity": "8fe188a3212343a2",
+						"ZSpatialEntity": "8fe188a3212343a2"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"899444b28314f5dd",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "SEQ_MR_BananaSlide_01",
+					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+					"properties": {
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 803908
+							}
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"01b9e756158f40c0",
+								"d5fb9b2903efd7d5"
+							]
+						},
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						}
+					},
+					"events": {
+						"Event_Track_pacify_Fired": {
+							"PacifyByAccident": [
+								"b202d951b4347ecd"
+							]
+						},
+						"Stopped": {
+							"PacifyByAccident": [
+								"b202d951b4347ecd"
+							]
+						},
+						"OnStart": {
+							"Start": [
+								"00c889d9c84ca6f7"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"b005a4a6ee08ef9c",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "KeywordEntity_DIALOGUE_FALLBACK",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_fallback.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_fallback.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"8fe188a3212343a2"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"ebbdf1319d659c67",
+				{
+					"parent": "efd8985f96b666a4",
+					"name": "FX_PB_Impact_Water_Splash",
+					"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"AlphaCurve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0,
+										0.9861686825752258,
+										0,
+										0,
+										0.21201376616954804,
+										-0.7059838175773621,
+										-4.7510216977836618e-17,
+										0.9861686825752258
+									],
+									[
+										0.4646293818950653,
+										0.492198646068573,
+										0,
+										0,
+										0.21201376616954804,
+										0.06994253396987915,
+										-0.7759263515472412,
+										0.492198646068573
+									],
+									[
+										0.9292587637901306,
+										-0.0017714147688820959,
+										0,
+										0,
+										0,
+										0,
+										0,
+										-0.0017714147688820959
+									]
+								]
+							}
+						},
+						"m_fMotionStretchFactor": {
+							"type": "float32",
+							"value": 2
+						},
+						"m_FixedAlpha": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 100
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 150
+						},
+						"m_ParticleColorRangeStart": {
+							"type": "SColorRGB",
+							"value": "#c543e6"
+						},
+						"m_ParticleColorRangeEnd": {
+							"type": "SColorRGB",
+							"value": "#c543e6"
+						},
+						"m_bMultiTrack": {
+							"type": "bool",
+							"value": true
+						},
+						"m_fArrayIndexB": {
+							"type": "float32",
+							"value": 23
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"m_vGravity": {
+							"type": "SVector3",
+							"value": {
+								"x": 0,
+								"y": 0,
+								"z": -1
+							}
+						},
+						"m_bEmitFrozen": {
+							"type": "bool",
+							"value": false
+						},
+						"m_ePivotLocation": {
+							"type": "EParticleSpritePivotLocation",
+							"value": "CENTER_PIVOT"
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 0.25
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"74ec7d64457bb8c3",
+				{
+					"parent": "efd8985f96b666a4",
+					"name": "ParticleEmitterPoint_Water_Splash",
+					"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+					"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_bEnabled": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fFixedEmissionCount": {
+							"type": "float32",
+							"value": 5
+						},
+						"m_fEmissionCameraProximity": {
+							"type": "float32",
+							"value": 20
+						},
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 90
+						},
+						"m_fSpeedMax": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_fSpeedMin": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_ParticleController": {
+							"type": "SEntityTemplateReference",
+							"value": "ebbdf1319d659c67"
+						},
+						"m_ParticleRender": {
+							"type": "SEntityTemplateReference",
+							"value": "414e451241f82b62"
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0,
+								"y": 0,
+								"z": 0
+							}
+						},
+						"m_ParticleShaderParameters": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "414e451241f82b62",
+								"externalScene": null,
+								"exposedEntity": "FX_PSP_Water_Generic"
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "efd8985f96b666a4",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"bb12d59f19d0052b",
+				{
+					"parent": "01b9e756158f40c0",
+					"name": "MorphemeTrajectoryTrack",
+					"factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "01b9e756158f40c0"
+						},
+						"m_bRunAIInGaps": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"4ade93d9ec00c524"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"d9a7789b87d98e1f",
+				{
+					"parent": "d2755c02eb73075b",
+					"name": "ParticleEmitterPoint_Milk_Decal",
+					"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+					"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_bEnabled": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fFixedEmissionCount": {
+							"type": "float32",
+							"value": 9
+						},
+						"m_fEmissionCameraProximity": {
+							"type": "float32",
+							"value": 20
+						},
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 90
+						},
+						"m_fSpeedMax": {
+							"type": "float32",
+							"value": 3
+						},
+						"m_fSpeedMin": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_ParticleController": {
+							"type": "SEntityTemplateReference",
+							"value": "ce913b7545e9c6bf"
+						},
+						"m_ParticleRender": {
+							"type": "SEntityTemplateReference",
+							"value": "7dbb4136061813c4"
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0,
+								"y": 0,
+								"z": 0
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "d2755c02eb73075b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"40634c8da00fb4f1",
+				{
+					"parent": "43b1f85b7fa31054",
+					"name": "MorphemeTrajectoryTrack",
+					"factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "43b1f85b7fa31054"
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"3fc16dd9e07da319"
+							]
+						},
+						"m_bRunAIInGaps": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"45606f3c1f19d8fa",
+				{
+					"parent": "efd8985f96b666a4",
+					"name": "DecalsSpawn",
+					"factory": "[modules:/zdecalsspawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zdecalsspawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_ridDecalMaterial": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/environment/materials/decals/grapedecal_chunky_2x2_a.mi].pc_mi",
+								"flag": "5F"
+							}
+						},
+						"m_nTilesX": {
+							"type": "uint32",
+							"value": 2
+						},
+						"m_ridDecalController": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/effects/templates/decals/fx_decalcontrollers.template?/fx_decalcontroller_blood_splat_ground.entitytemplate].pc_entitytemplate",
+								"flag": "5F"
+							}
+						},
+						"m_nTilesY": {
+							"type": "uint32",
+							"value": 2
+						},
+						"m_fDecalSizeA": {
+							"type": "float32",
+							"value": 0.3499999940395355
+						},
+						"m_fDecalSizeB": {
+							"type": "float32",
+							"value": 0.3499999940395355
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "efd8985f96b666a4",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"929cc12406281d1a",
+				{
+					"parent": "d2755c02eb73075b",
+					"name": "ParticleEmitterPoint_Water_Splash",
+					"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+					"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_bEnabled": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fFixedEmissionCount": {
+							"type": "float32",
+							"value": 5
+						},
+						"m_fEmissionCameraProximity": {
+							"type": "float32",
+							"value": 20
+						},
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 90
+						},
+						"m_fSpeedMax": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_fSpeedMin": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_ParticleController": {
+							"type": "SEntityTemplateReference",
+							"value": "80701a67bbdd20f0"
+						},
+						"m_ParticleRender": {
+							"type": "SEntityTemplateReference",
+							"value": "8ba96889b6821d60"
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0,
+								"y": 0,
+								"z": 0
+							}
+						},
+						"m_ParticleShaderParameters": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "8ba96889b6821d60",
+								"externalScene": null,
+								"exposedEntity": "FX_PSP_Water_Generic"
+							}
+						},
+						"m_bForceVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "d2755c02eb73075b",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"d2755c02eb73075b",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "Banana Impact FX",
+					"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0.07853800058364868,
+									"z": 0.028109999373555185
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					},
+					"inputCopying": {
+						"Activate": {
+							"Activate": [
+								"d9a7789b87d98e1f",
+								"929cc12406281d1a",
+								"31d2fd3a45ea952a"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"fcf97bec9f7d4728",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "VR_CloseCombat_SoundSetup",
+					"factory": "00242C0EDBB428C5",
+					"blueprint": "0053142B2E934BAB",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2",
+							"postInit": true
+						}
+					},
+					"events": {
+						"ImpactFront": {
+							"Impact": [
+								"6df2c76a309e4dc0"
+							]
+						},
+						"ImpactBack": {
+							"Impact_Back": [
+								"6df2c76a309e4dc0"
+							]
+						},
+						"Unholster": {
+							"Item_UnEquipped": [
+								"6df2c76a309e4dc0"
+							]
+						}
+					},
+					"subsets": {
+						"AudioEmitters": [
+							"1d1020e238534d7a"
+						]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"6df2c76a309e4dc0",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "SoundSetup_Item",
+					"factory": "[assembly:/templates/itemtemplates/item_soundsetup.template?/soundsetup_item.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/itemtemplates/item_soundsetup.template?/soundsetup_item.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2"
+						},
+						"CloseCombatImpact_Sound": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_grapevine/sfx_fol_item_grapevine_impact.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"PropEquipped_Sound": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_fish/play_fol_item_fish_equip.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"Equipped_Foley_Keyword": {
+							"type": "ZString",
+							"value": "FOLEY_ITEM_NO_SOUND"
+						},
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2"
+						},
+						"PropUnEquipped_Sound": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_fish/play_fol_item_fish_unequip.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"Prop_Placed_Sound": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/itemtemplateevents/item_foley_item_place_play.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"Close_Comba_Impact_Back_Soundt": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_grapevine/sfx_fol_item_grapevine_impact.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"Bloody_Equip_Toggle": {
+							"type": "bool",
+							"value": false
+						},
+						"DeadlyThrowImpact_Sound": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_grapevine/sfx_fol_item_grapevine_impact.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"m_ObstructionShapeRoot": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2"
+						},
+						"ItemImpactLow": {
+							"type": "ZRuntimeResourceID",
+							"value": null
+						},
+						"m_eidParent1": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": [
+							"1d1020e238534d7a"
+						]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"346cf3d9de0b4f22",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "3DAudioEmitter",
+					"factory": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 6.999998207948878,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2"
+						},
+						"m_bUseRaycastObstruction": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"subsets": {
+						"AudioEmitters": [
+							"1d1020e238534d7a"
+						]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"0b92fae067f7a534",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "play_sfx_prop_melee_banana_fall_01",
+					"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+					"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMainEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_banana/play_sfx_prop_melee_banana_fall_01.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"m_pEmitter": {
+							"type": "SEntityTemplateReference",
+							"value": "346cf3d9de0b4f22"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"5615b6b7c639ad55",
+				{
+					"parent": "d5fb9b2903efd7d5",
+					"name": "pacify",
+					"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 489335
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 104858
+							}
+						}
+					},
+					"outputCopying": {
+						"Fired": {
+							"pacify_Fired": [
+								"d5fb9b2903efd7d5"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"37ec3e2345da984e",
+				{
+					"parent": "efd8985f96b666a4",
+					"name": "FX_PB_Impact_Debris02",
+					"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_ridDecalMaterial": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/effects/materials/liquid/fx_decal_liquid_rupture_8x3_milk_01.mi].pc_mi",
+								"flag": "5F"
+							}
+						},
+						"m_ParticleColorRangeStart": {
+							"type": "SColorRGB",
+							"value": "#aa5ebd"
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 8
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 5
+						},
+						"DecalTilesY": {
+							"type": "uint32",
+							"value": 3
+						},
+						"m_fArrayIndexMax": {
+							"type": "float32",
+							"value": 23
+						},
+						"m_fFriction": {
+							"type": "float32",
+							"value": 250
+						},
+						"m_vGravity": {
+							"type": "SVector3",
+							"value": {
+								"x": 0,
+								"y": 0,
+								"z": -5.21999979019165
+							}
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 3
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_fRotationSpeedMax": {
+							"type": "float32",
+							"value": 2
+						},
+						"m_fRotationSpeedMin": {
+							"type": "float32",
+							"value": -2
+						},
+						"m_bKillParticlesOnCollision": {
+							"type": "bool",
+							"value": true
+						},
+						"DecalTilesX": {
+							"type": "uint32",
+							"value": 8
+						},
+						"m_ParticleColorRangeEnd": {
+							"type": "SColorRGB",
+							"value": "#aa5ebd"
+						},
+						"AlphaCurve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										-0.9949184060096741,
+										1
+									],
+									[
+										1,
+										0.005081587936729193,
+										0,
+										0,
+										0,
+										0,
+										0,
+										0.005081587936729193
+									]
+								]
+							}
+						},
+						"DecalSizeMultiplier": {
+							"type": "float32",
+							"value": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"a50bf6492b771cf4",
+				{
+					"parent": "efd8985f96b666a4",
+					"name": "ParticleEmitterPoint_Milk_Decal",
+					"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+					"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_bEnabled": {
+							"type": "bool",
+							"value": false
+						},
+						"m_fFixedEmissionCount": {
+							"type": "float32",
+							"value": 5
+						},
+						"m_fEmissionCameraProximity": {
+							"type": "float32",
+							"value": 20
+						},
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 90
+						},
+						"m_fSpeedMax": {
+							"type": "float32",
+							"value": 2
+						},
+						"m_fSpeedMin": {
+							"type": "float32",
+							"value": 1
+						},
+						"m_ParticleController": {
+							"type": "SEntityTemplateReference",
+							"value": "37ec3e2345da984e"
+						},
+						"m_ParticleRender": {
+							"type": "SEntityTemplateReference",
+							"value": "8e49d58c7584e050"
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0,
+								"y": 0,
+								"z": 0
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "efd8985f96b666a4",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"efd8985f96b666a4",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "Banana Impact FX 1",
+					"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0.058226000517606738
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					},
+					"inputCopying": {
+						"Activate": {
+							"Activatex": [
+								"a50bf6492b771cf4",
+								"74ec7d64457bb8c3",
+								"88f26dcaf0f27bcc"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"4ade93d9ec00c524",
+				{
+					"parent": "bb12d59f19d0052b",
+					"name": "TrajectoryResourceItem",
+					"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 803908
+							}
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_CHARACTER_RELATIVE"
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "004F079F4BBE9EA0",
+								"flag": "5F"
+							}
+						},
+						"m_bCrop": {
+							"type": "bool",
+							"value": false
+						},
+						"m_SkipFromEnd": {
+							"type": "ZGameTime",
+							"value": {
+								"m_nTicks": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed030b77e8c9b",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "Cyb_Soap",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5cdbc2e87967",
+				{
+					"parent": "cafed030b77e8c9b",
+					"name": "RigSoap",
+					"factory": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out": {
+							"DisablePickup": [
+								"854994bf10c55019"
+							],
+							"DestroyItem": [
+								"854994bf10c55019"
+							],
+							"SetInPhysicsWorld": [
+								{
+									"ref": "8fe188a3212343a2",
+									"value": {
+										"type": "bool",
+										"value": false
+									}
+								}
+							],
+							"In": [
+								"98e60a41670eb405"
+							],
+							"DisableAIPerceptible": [
+								"854994bf10c55019"
+							],
+							"BreakAll": [
+								"8fe188a3212343a2"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe31a8d072638f",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "ItemHelpers_GripPose_1H_Rock",
+					"factory": "[assembly:/_pro/design/gamecore/itemhelpers_grippose.template?/itemhelpers_grippose_1h_rock.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/itemhelpers_grippose.template?/itemhelpers_grippose_1h_rock.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecf2b51808637",
+				{
+					"parent": "854994bf10c55019",
+					"name": "CCEffectSet",
+					"factory": "[modules:/zcceffectsetentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcceffectsetentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEmitterEffect": {
+							"type": "ECCEmitterEffect",
+							"value": "eCCEmitterEffect_Blunt1H"
+						},
+						"m_eDecalEffect": {
+							"type": "ECCDecalEffect",
+							"value": "eCCDecalEffect_Blunt1H"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecbd7340c2568",
+				{
+					"parent": "1d1020e238534d7a",
+					"name": "Keyword_ITEM_SOAP",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_soap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_soap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"8fe188a3212343a2"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe593cf4febfcb",
+				{
+					"parent": "c98e369ff50ccd17",
+					"name": "Splat B",
+					"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out03": {
+							"DestroyItem": [
+								"854994bf10c55019"
+							]
+						},
+						"Out01": {
+							"SetVisible": [
+								{
+									"ref": "8fe188a3212343a2",
+									"value": {
+										"type": "bool",
+										"value": false
+									}
+								}
+							]
+						},
+						"Out04": {
+							"SetFalse": [
+								"d341c0b2b7daa35a"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafece4b190faa20",
+				{
+					"parent": "cafed030b77e8c9b",
+					"name": "PropHelper_Melee_Destructible",
+					"factory": "[assembly:/_pro/design/items/prop_melee_runtimes.template?/prophelper_melee_destructible.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/items/prop_melee_runtimes.template?/prophelper_melee_destructible.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pShatterSystem": {
+							"type": "SEntityTemplateReference",
+							"value": "8fe188a3212343a2",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedd7626ea29a7",
+				{
+					"parent": "854994bf10c55019",
+					"name": "TimerSimple",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Delay time (ms)": {
+							"type": "int32",
+							"value": 100
+						}
+					},
+					"events": {
+						"Out": {
+							"DisablePickup": [
+								"854994bf10c55019"
+							],
+							"DestroyItem": [
+								"854994bf10c55019"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/effects/templates/shatter/fx_destructionmaterials.template?/destructionmaterial_item_melee.entitytemplate].pc_entitytemplate",
+				"flag": "5F"
+			}
+		},
+		{
+			"AddExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/effects/templates/decals/fx_decalcontrollers.template?/fx_decalcontroller_particle.entitytemplate].pc_entitytemplate",
+				"flag": "5F"
+			}
+		},
+		{
+			"AddExtraFactoryDependency": {
+				"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_decal_01.prim].pc_prim",
+				"flag": "5F"
+			}
+		},
+		{
+			"AddExtraFactoryDependency": {
+				"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+				"flag": "5F"
+			}
+		},
+		{
+			"AddExtraFactoryDependency": {
+				"resource": "0008F9555AACD391",
+				"flag": "5F"
+			}
+		},
+		{
+			"AddExtraFactoryDependency": {
+				"resource": "007C4EAA8D84D686",
+				"flag": "5F"
+			}
+		},
+		{
+			"AddExtraFactoryDependency": {
+				"resource": "001B6C93ECDE5BE8",
+				"flag": "5F"
+			}
+		}
+	],
+	"patchVersion": 6
+}

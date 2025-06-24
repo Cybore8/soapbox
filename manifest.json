@@ -5,7 +5,32 @@
 	"name": "Soap",
 	"description": "Enables destroyed soap to create slippery puddles and swaps the static soap models with item versions.",
 	"authors": ["Cyb"],
-	"contentFolders": ["content"],
 	"frameworkVersion": "2.33.24",
-	"updateCheck": "https://github.com/Cybore8/soapbox/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/Cybore8/soapbox/releases/latest/download/updates.json",
+	"options": [
+		{
+			"name": "Default Slickness",
+			"type": "select",
+			"tooltip": "Default Setup.",
+			"group": "Config",
+			"enabledByDefault": true,
+			"contentFolders": ["content-default"]
+		},
+		{
+			"name": "ICA Traction Spray",
+			"type": "select",
+			"tooltip": "Starts the mission with Traction Spray applied.",
+			"group": "Config",
+			"enabledByDefault": false,
+			"contentFolders": ["content-noslip"]
+		},
+		{
+			"name": "Bananas",
+			"type": "select",
+			"group": "Config",
+			"tooltip": "Makes the soap bar work like the Banana, static soap models remain as vanilla.",
+			"enabledByDefault": false,
+			"contentFolders": ["content-bananasoap"]
+		}
+	]
 }

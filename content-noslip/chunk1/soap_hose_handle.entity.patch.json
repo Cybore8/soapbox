@@ -1,0 +1,81 @@
+{
+	"tempHash": "00C9E8B7FE82C60A",
+	"tbluHash": "00811C7600FF2290",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4644b9c34379bf48",
+				{
+					"AddEventConnection": [
+						"Out02",
+						"SetAngles",
+						"cafedb68852a1508"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4644b9c34379bf48",
+				{
+					"AddEventConnection": [
+						"Out02",
+						"SetPosition",
+						"cafe2ce6adcdf741"
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2ce6adcdf741",
+				{
+					"parent": "158f645bd5cb40d8",
+					"name": "SetPosition0a",
+					"factory": "[modules:/zsetpositionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsetpositionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_vPosition": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.33660000562667847,
+								"y": 1.6723999977111816,
+								"z": 0.0010000000474974513
+							}
+						},
+						"m_Entity": {
+							"type": "SEntityTemplateReference",
+							"value": "158f645bd5cb40d8"
+						},
+						"m_bSetLocalPosition": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedb68852a1508",
+				{
+					"parent": "158f645bd5cb40d8",
+					"name": "SetRotation0b",
+					"factory": "[modules:/zsetrotationentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsetrotationentity.class].pc_entityblueprint",
+					"properties": {
+						"m_fAngles": {
+							"type": "SVector3",
+							"value": { "x": 0.0, "y": 0.0, "z": 200.0 }
+						},
+						"m_Geom": {
+							"type": "SEntityTemplateReference",
+							"value": "158f645bd5cb40d8"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

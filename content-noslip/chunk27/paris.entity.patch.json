@@ -1,0 +1,167 @@
+{
+	"tempHash": "00B6CEDD6778F19C",
+	"tbluHash": "00AE87315CD24E96",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"efbc0938da1f238f",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"efbc0938da1f238f",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3657fb3c0a52415a",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3657fb3c0a52415a",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c8b6bd593602db2",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c8b6bd593602db2",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c373d3f134219e67",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c373d3f134219e67",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"84b424a7b76ab4ef",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"84b424a7b76ab4ef",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96a2b8caaeddcd94",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96a2b8caaeddcd94",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f2bef3efeed013f4",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f2bef3efeed013f4",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1d45d269c1aac2ad",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1d45d269c1aac2ad",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c50a0a0773242227",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c50a0a0773242227",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b531bce4bf20b363",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b531bce4bf20b363",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/soap_a_00.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
