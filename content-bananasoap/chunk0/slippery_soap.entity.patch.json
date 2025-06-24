@@ -81,9 +81,7 @@
 					"properties": {
 						"m_aHolders": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"8fe188a3212343a2"
-							],
+							"value": ["8fe188a3212343a2"],
 							"postInit": true
 						}
 					}
@@ -129,9 +127,7 @@
 						},
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"aac45f1517c6eb78"
-							],
+							"value": ["aac45f1517c6eb78"],
 							"postInit": true
 						}
 					}
@@ -172,10 +168,7 @@
 						},
 						"m_aTracksAndGroups": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"ddd477d6a2e3de51",
-								"100beb3d57ad58a0"
-							],
+							"value": ["ddd477d6a2e3de51", "100beb3d57ad58a0"],
 							"postInit": true
 						}
 					}
@@ -218,24 +211,16 @@
 					},
 					"events": {
 						"Output1": {
-							"Start": [
-								"899444b28314f5dd"
-							]
+							"Start": ["899444b28314f5dd"]
 						},
 						"Output2": {
-							"Start": [
-								"548f086f004420ed"
-							]
+							"Start": ["548f086f004420ed"]
 						},
 						"Output3": {
-							"Start": [
-								"9bfa833aa8418c27"
-							]
+							"Start": ["9bfa833aa8418c27"]
 						},
 						"Output4": {
-							"TransmitEvent": [
-								"d71c24ad64b9ca6a"
-							]
+							"TransmitEvent": ["d71c24ad64b9ca6a"]
 						}
 					}
 				}
@@ -301,28 +286,19 @@
 						},
 						"m_aTracksAndGroups": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"d5ea43298a018c31",
-								"28803967b58535b3"
-							],
+							"value": ["d5ea43298a018c31", "28803967b58535b3"],
 							"postInit": true
 						}
 					},
 					"events": {
 						"Event_Track_pacify_Fired": {
-							"PacifyByAccident": [
-								"b202d951b4347ecd"
-							]
+							"PacifyByAccident": ["b202d951b4347ecd"]
 						},
 						"Stopped": {
-							"PacifyByAccident": [
-								"b202d951b4347ecd"
-							]
+							"PacifyByAccident": ["b202d951b4347ecd"]
 						},
 						"OnStart": {
-							"Start": [
-								"00c889d9c84ca6f7"
-							]
+							"Start": ["00c889d9c84ca6f7"]
 						}
 					}
 				}
@@ -338,14 +314,10 @@
 					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 					"events": {
 						"Out03": {
-							"DestroyItem": [
-								"854994bf10c55019"
-							]
+							"DestroyItem": ["854994bf10c55019"]
 						},
 						"Out04": {
-							"SetFalse": [
-								"d341c0b2b7daa35a"
-							],
+							"SetFalse": ["d341c0b2b7daa35a"],
 							"SetVisiblex": [
 								{
 									"ref": "8fe188a3212343a2",
@@ -357,9 +329,7 @@
 							]
 						},
 						"Out01": {
-							"BreakAll": [
-								"8fe188a3212343a2"
-							]
+							"BreakAll": ["8fe188a3212343a2"]
 						}
 					}
 				}
@@ -429,10 +399,7 @@
 						},
 						"m_aTracksAndGroups": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"40634c8da00fb4f1",
-								"488c878a105ad789"
-							],
+							"value": ["40634c8da00fb4f1", "488c878a105ad789"],
 							"postInit": true
 						}
 					}
@@ -462,28 +429,19 @@
 						},
 						"m_aTracksAndGroups": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"43b1f85b7fa31054",
-								"c929e6181b8a3ac9"
-							],
+							"value": ["43b1f85b7fa31054", "c929e6181b8a3ac9"],
 							"postInit": true
 						}
 					},
 					"events": {
 						"Event_Track_pacify_Fired": {
-							"PacifyByAccident": [
-								"b202d951b4347ecd"
-							]
+							"PacifyByAccident": ["b202d951b4347ecd"]
 						},
 						"Stopped": {
-							"PacifyByAccident": [
-								"b202d951b4347ecd"
-							]
+							"PacifyByAccident": ["b202d951b4347ecd"]
 						},
 						"OnStart": {
-							"Start": [
-								"00c889d9c84ca6f7"
-							]
+							"Start": ["00c889d9c84ca6f7"]
 						}
 					}
 				}
@@ -562,9 +520,7 @@
 					},
 					"outputCopying": {
 						"Fired": {
-							"pacify_Fired": [
-								"c929e6181b8a3ac9"
-							]
+							"pacify_Fired": ["c929e6181b8a3ac9"]
 						}
 					}
 				}
@@ -597,24 +553,16 @@
 					"blueprint": "[modules:/zhm5iteminteractioneventconsumer.class].pc_entityblueprint",
 					"events": {
 						"ItemImpactBack": {
-							"Impact_Back": [
-								"6df2c76a309e4dc0"
-							]
+							"Impact_Back": ["6df2c76a309e4dc0"]
 						},
 						"ItemImpactFront": {
-							"Impact": [
-								"6df2c76a309e4dc0"
-							]
+							"Impact": ["6df2c76a309e4dc0"]
 						},
 						"ItemImpactLow": {
-							"ItemImpactLow": [
-								"6df2c76a309e4dc0"
-							]
+							"ItemImpactLow": ["6df2c76a309e4dc0"]
 						},
 						"ItemOnDeadlyThrow": {
-							"OnThrown": [
-								"6df2c76a309e4dc0"
-							]
+							"OnThrown": ["6df2c76a309e4dc0"]
 						}
 					}
 				}
@@ -684,17 +632,13 @@
 					"properties": {
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"2dbe9e030223dcba"
-							],
+							"value": ["2dbe9e030223dcba"],
 							"postInit": true
 						}
 					},
 					"outputCopying": {
 						"pacify_Fired": {
-							"Event_Track_pacify_Fired": [
-								"548f086f004420ed"
-							]
+							"Event_Track_pacify_Fired": ["548f086f004420ed"]
 						}
 					}
 				}
@@ -801,10 +745,7 @@
 						},
 						"m_aTracksAndGroups": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"bb12d59f19d0052b",
-								"32325befb494117b"
-							],
+							"value": ["bb12d59f19d0052b", "32325befb494117b"],
 							"postInit": true
 						}
 					}
@@ -878,14 +819,10 @@
 					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 					"events": {
 						"Out02": {
-							"In": [
-								"a4327c5652a9b798"
-							]
+							"In": ["a4327c5652a9b798"]
 						},
 						"Out01": {
-							"Enable": [
-								"75c4ef7e66e3ad1a"
-							]
+							"Enable": ["75c4ef7e66e3ad1a"]
 						}
 					}
 				}
@@ -907,9 +844,7 @@
 					},
 					"events": {
 						"Out": {
-							"Pick": [
-								"2cb728b255f79661"
-							]
+							"Pick": ["2cb728b255f79661"]
 						}
 					}
 				}
@@ -942,9 +877,7 @@
 						},
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"9ebf1e1506aa9b7e"
-							],
+							"value": ["9ebf1e1506aa9b7e"],
 							"postInit": true
 						}
 					}
@@ -967,15 +900,9 @@
 					},
 					"events": {
 						"Out": {
-							"Input": [
-								"8d8705fc1b508372"
-							],
-							"In": [
-								"c98e369ff50ccd17"
-							],
-							"Send": [
-								"0b92fae067f7a534"
-							]
+							"Input": ["8d8705fc1b508372"],
+							"In": ["c98e369ff50ccd17"],
+							"Send": ["0b92fae067f7a534"]
 						}
 					}
 				}
@@ -1020,22 +947,14 @@
 					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 					"events": {
 						"Out01": {
-							"SetTrue": [
-								"d341c0b2b7daa35a"
-							],
-							"Detach": [
-								"efd8985f96b666a4"
-							]
+							"SetTrue": ["d341c0b2b7daa35a"],
+							"Detach": ["efd8985f96b666a4"]
 						},
 						"Out02": {
-							"Activate": [
-								"efd8985f96b666a4"
-							]
+							"Activate": ["efd8985f96b666a4"]
 						},
 						"Out03": {
-							"DestroyItem": [
-								"854994bf10c55019"
-							]
+							"DestroyItem": ["854994bf10c55019"]
 						}
 					}
 				}
@@ -1060,9 +979,7 @@
 						},
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"e3b6c09081389748"
-							],
+							"value": ["e3b6c09081389748"],
 							"postInit": true
 						}
 					}
@@ -1083,35 +1000,14 @@
 							"value": {
 								"data": [
 									[
-										0,
-										0.9861686825752258,
-										0,
-										0,
-										0.21201376616954804,
-										-0.7059838175773621,
-										-4.7510216977836618e-17,
-										0.9861686825752258
+										0, 0.9861686825752258, 0, 0, 0.21201376616954804, -0.7059838175773621,
+										-4.7510216977836618e-17, 0.9861686825752258
 									],
 									[
-										0.4646293818950653,
-										0.492198646068573,
-										0,
-										0,
-										0.21201376616954804,
-										0.06994253396987915,
-										-0.7759263515472412,
-										0.492198646068573
+										0.4646293818950653, 0.492198646068573, 0, 0, 0.21201376616954804,
+										0.06994253396987915, -0.7759263515472412, 0.492198646068573
 									],
-									[
-										0.9292587637901306,
-										-0.0017714147688820959,
-										0,
-										0,
-										0,
-										0,
-										0,
-										-0.0017714147688820959
-									]
+									[0.9292587637901306, -0.0017714147688820959, 0, 0, 0, 0, 0, -0.0017714147688820959]
 								]
 							}
 						},
@@ -1197,16 +1093,12 @@
 					"properties": {
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"a9d5db4d001ebea8"
-							]
+							"value": ["a9d5db4d001ebea8"]
 						}
 					},
 					"outputCopying": {
 						"pacify_Fired": {
-							"Event_Track_pacify_Fired": [
-								"9bfa833aa8418c27"
-							]
+							"Event_Track_pacify_Fired": ["9bfa833aa8418c27"]
 						}
 					}
 				}
@@ -1276,17 +1168,13 @@
 					"properties": {
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"5615b6b7c639ad55"
-							],
+							"value": ["5615b6b7c639ad55"],
 							"postInit": true
 						}
 					},
 					"outputCopying": {
 						"pacify_Fired": {
-							"Event_Track_pacify_Fired": [
-								"899444b28314f5dd"
-							]
+							"Event_Track_pacify_Fired": ["899444b28314f5dd"]
 						}
 					}
 				}
@@ -1372,26 +1260,8 @@
 							"type": "ZCurve",
 							"value": {
 								"data": [
-									[
-										0,
-										1,
-										0,
-										0,
-										0,
-										0,
-										-0.9949184060096741,
-										1
-									],
-									[
-										1,
-										0.005081587936729193,
-										0,
-										0,
-										0,
-										0,
-										0,
-										0.005081587936729193
-									]
+									[0, 1, 0, 0, 0, 0, -0.9949184060096741, 1],
+									[1, 0.005081587936729193, 0, 0, 0, 0, 0, 0.005081587936729193]
 								]
 							}
 						},
@@ -1425,9 +1295,7 @@
 					"properties": {
 						"m_BaseEventConsumers": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"d2cac597fd60339d"
-							]
+							"value": ["d2cac597fd60339d"]
 						}
 					}
 				}
@@ -1457,9 +1325,7 @@
 					},
 					"outputCopying": {
 						"Fired": {
-							"pacify_Fired": [
-								"28803967b58535b3"
-							]
+							"pacify_Fired": ["28803967b58535b3"]
 						}
 					}
 				}
@@ -1572,21 +1438,15 @@
 					"properties": {
 						"m_aVolumes": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"5ad711251ec1d374"
-							]
+							"value": ["5ad711251ec1d374"]
 						},
 						"m_aFilters": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"b9c1e52ca986ebe6"
-							]
+							"value": ["b9c1e52ca986ebe6"]
 						},
 						"m_aEnterEffects": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"73b5d7ff1fe9f952"
-							],
+							"value": ["73b5d7ff1fe9f952"],
 							"postInit": true
 						}
 					}
@@ -1603,14 +1463,8 @@
 					"blueprint": "[modules:/zactorpickereffectreference.class].pc_entityblueprint",
 					"events": {
 						"OnIActor": {
-							"SetIActor": [
-								"b202d951b4347ecd",
-								"d5cb5f7b7fc2d276",
-								"00c889d9c84ca6f7"
-							],
-							"Variant": [
-								"8dad668d1d5d980b"
-							]
+							"SetIActor": ["b202d951b4347ecd", "d5cb5f7b7fc2d276", "00c889d9c84ca6f7"],
+							"Variant": ["8dad668d1d5d980b"]
 						}
 					}
 				}
@@ -1631,9 +1485,7 @@
 						},
 						"m_Spheres": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"5ad711251ec1d374"
-							]
+							"value": ["5ad711251ec1d374"]
 						},
 						"m_TriggerOnHitman": {
 							"type": "bool",
@@ -1650,9 +1502,7 @@
 					},
 					"events": {
 						"OnTrue": {
-							"In": [
-								"7b0f4ee674a2b6f2"
-							]
+							"In": ["7b0f4ee674a2b6f2"]
 						}
 					}
 				}
@@ -1681,9 +1531,7 @@
 						},
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"0304d924c3bbfbb4"
-							]
+							"value": ["0304d924c3bbfbb4"]
 						},
 						"m_bRunAIInGaps": {
 							"type": "bool",
@@ -1772,9 +1620,7 @@
 						}
 					},
 					"subsets": {
-						"AudioEmitters": [
-							"1d1020e238534d7a"
-						]
+						"AudioEmitters": ["1d1020e238534d7a"]
 					}
 				}
 			]
@@ -1795,9 +1641,7 @@
 					},
 					"events": {
 						"Out": {
-							"SetTrue": [
-								"ef91d86c4845f06b"
-							]
+							"SetTrue": ["ef91d86c4845f06b"]
 						}
 					}
 				}
@@ -1813,15 +1657,9 @@
 					"blueprint": "[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
 					"events": {
 						"Value": {
-							"In": [
-								"a9b9ebbfb448f30d"
-							],
-							"Disable": [
-								"75c4ef7e66e3ad1a"
-							],
-							"DestroyItem": [
-								"854994bf10c55019"
-							]
+							"In": ["a9b9ebbfb448f30d"],
+							"Disable": ["75c4ef7e66e3ad1a"],
+							"DestroyItem": ["854994bf10c55019"]
 						}
 					}
 				}
@@ -1900,15 +1738,11 @@
 						},
 						"m_aEffectSetsFrontSide": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafecf2b51808637"
-							]
+							"value": ["cafecf2b51808637"]
 						},
 						"m_aEffectSetsBack": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafecf2b51808637"
-							]
+							"value": ["cafecf2b51808637"]
 						},
 						"m_PosHandAttach": {
 							"type": "SEntityTemplateReference",
@@ -1953,49 +1787,27 @@
 					},
 					"events": {
 						"WeaponPlayerEquipped": {
-							"Item_Equipped": [
-								"6df2c76a309e4dc0"
-							]
+							"Item_Equipped": ["6df2c76a309e4dc0"]
 						},
 						"WeaponPlayerUnEquipped": {
-							"Item_UnEquipped": [
-								"6df2c76a309e4dc0"
-							]
+							"Item_UnEquipped": ["6df2c76a309e4dc0"]
 						},
 						"DeadlyThrowImpact": {
-							"DeadlyThrowImpact": [
-								"6df2c76a309e4dc0"
-							],
-							"In": [
-								"c98e369ff50ccd17"
-							]
+							"DeadlyThrowImpact": ["6df2c76a309e4dc0"],
+							"In": ["c98e369ff50ccd17"]
 						},
 						"OnPlaced": {
-							"ItemPlaced": [
-								"6df2c76a309e4dc0"
-							],
-							"In": [
-								"cafe5cdbc2e87967"
-							]
+							"ItemPlaced": ["6df2c76a309e4dc0"],
+							"In": ["cafe5cdbc2e87967"]
 						},
 						"OnPutInContainer": {
-							"ItemPlaced": [
-								"6df2c76a309e4dc0"
-							]
+							"ItemPlaced": ["6df2c76a309e4dc0"]
 						},
 						"OnThrown": {
-							"OnThrown_MixingEvent": [
-								"6df2c76a309e4dc0"
-							],
-							"Throw": [
-								"0b4880e10c541385"
-							],
-							"DisablePickup": [
-								"854994bf10c55019"
-							],
-							"DestroyItem": [
-								"854994bf10c55019"
-							],
+							"OnThrown_MixingEvent": ["6df2c76a309e4dc0"],
+							"Throw": ["0b4880e10c541385"],
+							"DisablePickup": ["854994bf10c55019"],
+							"DestroyItem": ["854994bf10c55019"],
 							"SetInPhysicsWorldx": [
 								{
 									"ref": "8fe188a3212343a2",
@@ -2007,58 +1819,32 @@
 							]
 						},
 						"OwnedByHitman": {
-							"Disable": [
-								"75c4ef7e66e3ad1a"
-							]
+							"Disable": ["75c4ef7e66e3ad1a"]
 						},
 						"ImpactBack": {
-							"ImpactBack": [
-								"fcf97bec9f7d4728"
-							],
-							"OnMeleeImpact": [
-								"cafece4b190faa20"
-							],
-							"In": [
-								"cafedd7626ea29a7"
-							],
-							"Inx": [
-								"cafe593cf4febfcb"
-							]
+							"ImpactBack": ["fcf97bec9f7d4728"],
+							"OnMeleeImpact": ["cafece4b190faa20"],
+							"In": ["cafedd7626ea29a7"],
+							"Inx": ["cafe593cf4febfcb"]
 						},
 						"ImpactFrontSide": {
-							"ImpactFront": [
-								"fcf97bec9f7d4728"
-							],
-							"OnMeleeImpact": [
-								"cafece4b190faa20"
-							],
-							"In": [
-								"cafedd7626ea29a7"
-							],
-							"Inx": [
-								"cafe593cf4febfcb"
-							]
+							"ImpactFront": ["fcf97bec9f7d4728"],
+							"OnMeleeImpact": ["cafece4b190faa20"],
+							"In": ["cafedd7626ea29a7"],
+							"Inx": ["cafe593cf4febfcb"]
 						},
 						"OnStartPriming": {
-							"PrimeStartFloat": [
-								"fcf97bec9f7d4728"
-							]
+							"PrimeStartFloat": ["fcf97bec9f7d4728"]
 						},
 						"OnItemPrimed": {
-							"PrimeStart": [
-								"fcf97bec9f7d4728"
-							]
+							"PrimeStart": ["fcf97bec9f7d4728"]
 						},
 						"OnStopPriming": {
-							"PrimeStop": [
-								"fcf97bec9f7d4728"
-							]
+							"PrimeStop": ["fcf97bec9f7d4728"]
 						}
 					},
 					"subsets": {
-						"Replicable": [
-							"1d1020e238534d7a"
-						]
+						"Replicable": ["1d1020e238534d7a"]
 					}
 				}
 			]
@@ -2157,10 +1943,7 @@
 						},
 						"m_aTracksAndGroups": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"01b9e756158f40c0",
-								"d5fb9b2903efd7d5"
-							]
+							"value": ["01b9e756158f40c0", "d5fb9b2903efd7d5"]
 						},
 						"m_startTime": {
 							"type": "ZGameTime",
@@ -2171,19 +1954,13 @@
 					},
 					"events": {
 						"Event_Track_pacify_Fired": {
-							"PacifyByAccident": [
-								"b202d951b4347ecd"
-							]
+							"PacifyByAccident": ["b202d951b4347ecd"]
 						},
 						"Stopped": {
-							"PacifyByAccident": [
-								"b202d951b4347ecd"
-							]
+							"PacifyByAccident": ["b202d951b4347ecd"]
 						},
 						"OnStart": {
-							"Start": [
-								"00c889d9c84ca6f7"
-							]
+							"Start": ["00c889d9c84ca6f7"]
 						}
 					}
 				}
@@ -2200,9 +1977,7 @@
 					"properties": {
 						"m_aHolders": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"8fe188a3212343a2"
-							]
+							"value": ["8fe188a3212343a2"]
 						}
 					}
 				}
@@ -2222,35 +1997,14 @@
 							"value": {
 								"data": [
 									[
-										0,
-										0.9861686825752258,
-										0,
-										0,
-										0.21201376616954804,
-										-0.7059838175773621,
-										-4.7510216977836618e-17,
-										0.9861686825752258
+										0, 0.9861686825752258, 0, 0, 0.21201376616954804, -0.7059838175773621,
+										-4.7510216977836618e-17, 0.9861686825752258
 									],
 									[
-										0.4646293818950653,
-										0.492198646068573,
-										0,
-										0,
-										0.21201376616954804,
-										0.06994253396987915,
-										-0.7759263515472412,
-										0.492198646068573
+										0.4646293818950653, 0.492198646068573, 0, 0, 0.21201376616954804,
+										0.06994253396987915, -0.7759263515472412, 0.492198646068573
 									],
-									[
-										0.9292587637901306,
-										-0.0017714147688820959,
-										0,
-										0,
-										0,
-										0,
-										0,
-										-0.0017714147688820959
-									]
+									[0.9292587637901306, -0.0017714147688820959, 0, 0, 0, 0, 0, -0.0017714147688820959]
 								]
 							}
 						},
@@ -2414,9 +2168,7 @@
 						},
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"4ade93d9ec00c524"
-							],
+							"value": ["4ade93d9ec00c524"],
 							"postInit": true
 						}
 					}
@@ -2515,9 +2267,7 @@
 						},
 						"m_aItems": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"3fc16dd9e07da319"
-							]
+							"value": ["3fc16dd9e07da319"]
 						},
 						"m_bRunAIInGaps": {
 							"type": "bool",
@@ -2695,11 +2445,7 @@
 					},
 					"inputCopying": {
 						"Activate": {
-							"Activate": [
-								"d9a7789b87d98e1f",
-								"929cc12406281d1a",
-								"31d2fd3a45ea952a"
-							]
+							"Activate": ["d9a7789b87d98e1f", "929cc12406281d1a", "31d2fd3a45ea952a"]
 						}
 					}
 				}
@@ -2722,25 +2468,17 @@
 					},
 					"events": {
 						"ImpactFront": {
-							"Impact": [
-								"6df2c76a309e4dc0"
-							]
+							"Impact": ["6df2c76a309e4dc0"]
 						},
 						"ImpactBack": {
-							"Impact_Back": [
-								"6df2c76a309e4dc0"
-							]
+							"Impact_Back": ["6df2c76a309e4dc0"]
 						},
 						"Unholster": {
-							"Item_UnEquipped": [
-								"6df2c76a309e4dc0"
-							]
+							"Item_UnEquipped": ["6df2c76a309e4dc0"]
 						}
 					},
 					"subsets": {
-						"AudioEmitters": [
-							"1d1020e238534d7a"
-						]
+						"AudioEmitters": ["1d1020e238534d7a"]
 					}
 				}
 			]
@@ -2842,9 +2580,7 @@
 						}
 					},
 					"subsets": {
-						"AudioEmitters": [
-							"1d1020e238534d7a"
-						]
+						"AudioEmitters": ["1d1020e238534d7a"]
 					}
 				}
 			]
@@ -2883,9 +2619,7 @@
 						}
 					},
 					"subsets": {
-						"AudioEmitters": [
-							"1d1020e238534d7a"
-						]
+						"AudioEmitters": ["1d1020e238534d7a"]
 					}
 				}
 			]
@@ -2938,9 +2672,7 @@
 					},
 					"outputCopying": {
 						"Fired": {
-							"pacify_Fired": [
-								"d5fb9b2903efd7d5"
-							]
+							"pacify_Fired": ["d5fb9b2903efd7d5"]
 						}
 					}
 				}
@@ -3026,26 +2758,8 @@
 							"type": "ZCurve",
 							"value": {
 								"data": [
-									[
-										0,
-										1,
-										0,
-										0,
-										0,
-										0,
-										-0.9949184060096741,
-										1
-									],
-									[
-										1,
-										0.005081587936729193,
-										0,
-										0,
-										0,
-										0,
-										0,
-										0.005081587936729193
-									]
+									[0, 1, 0, 0, 0, 0, -0.9949184060096741, 1],
+									[1, 0.005081587936729193, 0, 0, 0, 0, 0, 0.005081587936729193]
 								]
 							}
 						},
@@ -3161,11 +2875,7 @@
 					},
 					"inputCopying": {
 						"Activate": {
-							"Activatex": [
-								"a50bf6492b771cf4",
-								"74ec7d64457bb8c3",
-								"88f26dcaf0f27bcc"
-							]
+							"Activatex": ["a50bf6492b771cf4", "74ec7d64457bb8c3", "88f26dcaf0f27bcc"]
 						}
 					}
 				}
@@ -3238,12 +2948,8 @@
 					"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
 					"events": {
 						"Out": {
-							"DisablePickup": [
-								"854994bf10c55019"
-							],
-							"DestroyItem": [
-								"854994bf10c55019"
-							],
+							"DisablePickup": ["854994bf10c55019"],
+							"DestroyItem": ["854994bf10c55019"],
 							"SetInPhysicsWorld": [
 								{
 									"ref": "8fe188a3212343a2",
@@ -3253,15 +2959,9 @@
 									}
 								}
 							],
-							"In": [
-								"98e60a41670eb405"
-							],
-							"DisableAIPerceptible": [
-								"854994bf10c55019"
-							],
-							"BreakAll": [
-								"8fe188a3212343a2"
-							]
+							"In": ["98e60a41670eb405"],
+							"DisableAIPerceptible": ["854994bf10c55019"],
+							"BreakAll": ["8fe188a3212343a2"]
 						}
 					}
 				}
@@ -3310,9 +3010,7 @@
 					"properties": {
 						"m_aHolders": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"8fe188a3212343a2"
-							],
+							"value": ["8fe188a3212343a2"],
 							"postInit": true
 						}
 					}
@@ -3329,9 +3027,7 @@
 					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 					"events": {
 						"Out03": {
-							"DestroyItem": [
-								"854994bf10c55019"
-							]
+							"DestroyItem": ["854994bf10c55019"]
 						},
 						"Out01": {
 							"SetVisible": [
@@ -3345,9 +3041,7 @@
 							]
 						},
 						"Out04": {
-							"SetFalse": [
-								"d341c0b2b7daa35a"
-							]
+							"SetFalse": ["d341c0b2b7daa35a"]
 						}
 					}
 				}
@@ -3387,12 +3081,8 @@
 					},
 					"events": {
 						"Out": {
-							"DisablePickup": [
-								"854994bf10c55019"
-							],
-							"DestroyItem": [
-								"854994bf10c55019"
-							]
+							"DisablePickup": ["854994bf10c55019"],
+							"DestroyItem": ["854994bf10c55019"]
 						}
 					}
 				}

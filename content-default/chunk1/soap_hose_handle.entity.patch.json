@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"4644b9c34379bf48",
 				{
-					"AddEventConnection": [
-						"Out02",
-						"SetAngles",
-						"cafedb68852a1508"
-					]
+					"AddEventConnection": ["Out02", "SetAngles", "cafedb68852a1508"]
 				}
 			]
 		},
@@ -18,11 +14,7 @@
 			"SubEntityOperation": [
 				"4644b9c34379bf48",
 				{
-					"AddEventConnection": [
-						"Out02",
-						"SetPosition",
-						"cafe2ce6adcdf741"
-					]
+					"AddEventConnection": ["Out02", "SetPosition", "cafe2ce6adcdf741"]
 				}
 			]
 		},
